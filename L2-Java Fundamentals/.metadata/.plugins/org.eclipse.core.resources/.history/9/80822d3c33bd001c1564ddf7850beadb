@@ -13,12 +13,15 @@ public class AverageMarks {
 	 	* Print output as specified in the question.
 		*/
         
+        String str;
         char name;
         int m1, m2, m3, average;
         
 //      Reading Input from the user
         Scanner scanner = new Scanner(System.in);
-        name = scanner.next().charAt(0);
+        str = scanner.next();
+        name = str.charAt(0);
+        System.out.print("\n");
         m1 = scanner.nextInt();
         m2 = scanner.nextInt();
         m3 = scanner.nextInt();
