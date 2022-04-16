@@ -1,0 +1,13 @@
+package fundamentals;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		char ch = 'a';
+		int i = ch;
+		ch = i;
+		System.out.println(ch);
+
+	}
+
+}
