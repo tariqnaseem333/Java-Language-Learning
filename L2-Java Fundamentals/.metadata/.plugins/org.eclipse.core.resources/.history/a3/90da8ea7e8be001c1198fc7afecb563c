@@ -1,0 +1,26 @@
+package fundamentals;
+
+public class ScopeOfVariables {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		a = 100;
+		
+		if ( a >= 100 ) {
+			int b = 10;
+			System.out.println(b);
+		} else {
+			int c = 20;
+			System.out.println(c);
+		}
+		
+//		Variable b is not accessible outside the scope of if 
+//		block
+//		System.out.println(b);
+		
+		System.out.println(a);
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package fundamentals;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+	
+	public static void main(String[] args) {
+		
+//		println prints a new line at the end
+//		print prints on the same line
+		
+//		System.out.println("Hello World");
+//		System.out.println("Hello World");
+//		System.out.println("Hello World");
+		
+		 Scanner s=new Scanner (System.in);
+		    int n=s.nextInt();
+		    boolean isprime=true;
+		    if(n%2==0)
+		        isprime=false;
+		    int i=3;
+		    while(isprime&&i<n)
+		    {
+		        isprime=!(n%i==0);
+		        i+=2;
+		    }
+		    if(isprime)
+		    {
+		        System.out.println("Prime");
+		    }
+		    else
+		    {
+		        System.out.println("Composite");
+		    }
+
+	}
+
+}

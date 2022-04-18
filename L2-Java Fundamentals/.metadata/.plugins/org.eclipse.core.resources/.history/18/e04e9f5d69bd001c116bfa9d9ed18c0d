@@ -1,0 +1,33 @@
+package fundamentals;
+
+import java.util.Scanner;
+
+public class EvenOddNumber {
+
+	public static void main(String[] args) {
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.println("Enter the number: ");
+//		int number = scanner.nextInt();
+//		
+//		if (number%2 == 0) {
+//			System.out.println(number + " is even");
+//		} else {
+//			System.out.println(number + " is Odd");
+//		}
+		
+	    int a=10,b=15;
+	    if(a>b)
+	    {
+	        System.out.print("a ");
+	    }
+	    else
+	    {
+	        System.out.print("b ");
+	    }
+	    System.out.print("is greater");
+		
+
+	}
+
+}

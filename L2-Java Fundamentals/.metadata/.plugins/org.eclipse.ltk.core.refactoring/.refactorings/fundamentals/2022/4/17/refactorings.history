@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;count&apos; in &apos;fundamentals.CheckPrime.main(...)&apos; to &apos;isPrime&apos;&#x0D;&#x0A;- Original project: &apos;fundamentals&apos;&#x0D;&#x0A;- Original element: &apos;fundamentals.CheckPrime.main(String[]).count&apos;&#x0D;&#x0A;- Renamed element: &apos;count&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;count&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;fundamentals{CheckPrime.java[CheckPrime~main~\[QString;@count!218!231!226!230!Z!0!false" name="isPrime" references="true" stamp="1650262347622" version="1.0"/>
+</session>

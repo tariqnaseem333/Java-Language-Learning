@@ -1,0 +1,11 @@
+package fundamentals;
+
+public class RelationalLogicalOperators {
+
+	public static void main(String[] args) {
+		int a = 0, b = 20;
+		System.out.println(a > b);
+
+	}
+
+}

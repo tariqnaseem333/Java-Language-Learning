@@ -1,0 +1,34 @@
+package fundamentals;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+public class TotalSalary {
+
+	public static void main(String[] args) {
+		
+        int basicSalary, allow;
+        double totalSalary;
+        char grade;
+        
+    	Scanner scanner = new Scanner(System.in);
+        basicSalary = scanner.nextInt();
+        grade = scanner.next().charAt(0);
+        
+        if (grade == 'A') {
+            allow = 1700;
+        } else if (grade == 'B') {
+            allow = 1500;
+        } else {
+            allow = 1300;
+        }
+        
+        totalSalary = basicSalary + 0.2*basicSalary + 0.5*basicSalary + allow - 0.11*basicSalary;
+        
+        System.out.println(Math.round(totalSalary));
+
+		
+
+	}
+
+}
