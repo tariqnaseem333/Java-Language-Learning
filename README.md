@@ -16,20 +16,20 @@
 ### Day-3: Learning
 1.) Relational and Logical Operators\
 2.) Basics of Condidionals\
-**Problem**: Check Number is Even or Odd
-3.) Conditionals and Operators
+**Problem**: Check Number is Even or Odd\
+3.) Conditionals and Operators\
 4.) Nested if else and if-else if-else\
 **Problem**: Character Case
 
 ### Day-4: Learning
-1.) While Loops
-**Problem**: Sum of N numbers
-**Problem**: Fahrenheit to Celsius Table
-**Problem**: Check Number is Prime or Not
-2.) Return Keyword
-3.) Scope of Variables
-**Problem**: Calculate Total Salary
-**Problem**: Multiplication Table
-**Problem**: Sum of Even and Odd Digits of a number N
-**Problem**: Find factors of a Number
+1.) While Loops\
+**Problem**: Sum of N numbers\
+**Problem**: Fahrenheit to Celsius Table\
+**Problem**: Check Number is Prime or Not\
+2.) Return Keyword\
+3.) Scope of Variables\
+**Problem**: Calculate Total Salary\
+**Problem**: Multiplication Table\
+**Problem**: Sum of Even and Odd Digits of a number N\
+**Problem**: Find factors of a Number\
 **Problem**: Find Power of a Number
