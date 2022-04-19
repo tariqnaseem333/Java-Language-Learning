@@ -6,10 +6,10 @@ public class Pattern19 {
 
 	public static void main(String[] args) {
 		
-//		Print Square Pattern for n = 4
-//		12344321
-//		123**321
-//		12****21
+//		Print Square Pattern
+//		123
+//		123
+//		123
 		
 		int n, i, j;
 		

@@ -2,30 +2,32 @@ package patterns;
 
 import java.util.Scanner;
 
-public class Pattern19 {
+public class Pattern23 {
 
 	public static void main(String[] args) {
 		
-//		Print Square Pattern for n = 4
-//		12344321
-//		123**321
-//		12****21
+//		Pattern to Print
+//		333
+//		22
+//		1
 		
-		int n, i, j;
+		int num, i, j, k;
 		
 		Scanner scanner = new Scanner(System.in);
-		n = scanner.nextInt();
+		num = scanner.nextInt();
 		
 		i = 1;
-		while( i <= n ) {
+		while( i <= num ) {
 			j = 1;
-			while( j <= n ) {
-				System.out.print(j);
+			while( j <= (num - i +1) ) {
+				System.out.print(num - i +1);
 				j++;
-			}
+			}	
 			System.out.print("\n");
 			i++;
 		}
+		
+
 
 	}
 

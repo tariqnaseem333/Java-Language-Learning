@@ -1,0 +1,40 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class Pattern24 {
+
+	public static void main(String[] args) {
+		
+//		Pattern to Print
+//		333
+//		22
+//		1
+		
+		int n, i, spaces, stars;
+		
+		Scanner scanner = new Scanner(System.in);
+		n = scanner.nextInt();
+		
+		i = 1;
+		while( i <= n ) {
+			
+			spaces = 1;
+			while( spaces <= (n - i) ) {
+				System.out.print(" ");
+				spaces++;
+			}
+			stars = 1;
+			while( stars <= i ) {
+				System.out.print("stars");
+				stars++;
+			}
+			System.out.print("\n");
+			i++;
+		}
+		
+
+
+	}
+
+}
