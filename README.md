@@ -33,3 +33,11 @@
 **Problem**: Sum of Even and Odd Digits of a number N\
 **Problem**: Find factors of a Number\
 **Problem**: Find Power of a Number
+
+### Day-5: Learning
+1.) Square Patterns\
+2.) Triangular Patterns\
+3.) Character Patterns\
+**Problem**: 6 Problems on Square Patterns\
+**Problem**: 6 Problems on Triangular Patterns\
+**Problem**: 7 Problems on Character Patterns
