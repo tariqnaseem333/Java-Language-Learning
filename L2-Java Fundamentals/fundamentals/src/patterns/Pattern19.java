@@ -11,18 +11,36 @@ public class Pattern19 {
 //		123**321
 //		12****21
 		
-		int n, i, j;
+		int num, i, j, k, r, p;
 		
 		Scanner scanner = new Scanner(System.in);
-		n = scanner.nextInt();
+		num = scanner.nextInt();
 		
 		i = 1;
-		while( i <= n ) {
+		while( i <= ( num - 1 ) ) {
+			
+//			Loop for incrementing numbers
 			j = 1;
-			while( j <= n ) {
+			while( j <= ( num - i + 1 ) ) {
 				System.out.print(j);
 				j++;
 			}
+			
+//			Loop for printing *
+			k = 1;
+			while( k <= ( 2 * (i - 1) ) ) {
+				System.out.print("*");
+				k++;
+			}
+			
+//			Loop for decrementing numbers
+			r = 1;
+			p = num - i + 1;
+			while( r <= ( num - i + 1 ) ) {
+				System.out.print(p - r + 1);
+				r++;
+			}
+			
 			System.out.print("\n");
 			i++;
 		}

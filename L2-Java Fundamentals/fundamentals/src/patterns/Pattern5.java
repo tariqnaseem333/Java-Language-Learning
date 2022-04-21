@@ -7,9 +7,10 @@ public class Pattern5 {
 	public static void main(String[] args) {
 		
 //		Pattern to Print
-//		444
-//		444
-//		444
+//		333
+//		333
+//		333
+		
 		int num, i, j;
         Scanner scanner = new Scanner(System.in);
         num = scanner.nextInt();

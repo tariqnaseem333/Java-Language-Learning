@@ -7,9 +7,9 @@ public class Pattern24 {
 	public static void main(String[] args) {
 		
 //		Pattern to Print
-//		333
-//		22
-//		1
+//		  1
+//		 121
+//		12321
 		
 		int n, i, spaces, inc, dec;
 		

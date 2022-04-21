@@ -1,0 +1,52 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class Pattern26 {
+
+	public static void main(String[] args) {
+		
+//		Pattern to Print
+//		4555
+//		3455
+//		2345
+//		1234
+		
+		int num, i, j, k, p;
+		
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+		
+		i = 1;
+		while( i == 1 )  {
+			
+//			For Print first half of Pattern
+			j = 1;
+			p = num - i + 1;
+			while( j <= i ) {
+				System.out.print(p);
+				p++;
+				j++;
+			}
+			
+////			For Printing *
+//			k = 1;
+//			while( k <= ( 2 * ( num - 1 ) ) ) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			
+////			For Printing ending 1
+//			r = 1;
+//			while( r == i ) {
+//				System.out.print("1");
+//				r++;
+//			}
+			
+			System.out.print("\n");
+			i++;
+		}
+
+	}
+
+}

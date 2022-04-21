@@ -12,7 +12,7 @@ public class Pattern7 {
 //		456
 		
 		int num, i, j;
-		int p =1;
+		int p = 1;
         Scanner scanner = new Scanner(System.in);
         num = scanner.nextInt();
         
