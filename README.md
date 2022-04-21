@@ -41,3 +41,11 @@
 **Problem**: 6 Problems on Square Patterns\
 **Problem**: 6 Problems on Triangular Patterns\
 **Problem**: 7 Problems on Character Patterns
+
+### Day-6: Learning
+1.) Mirror Image Patterns\
+2.) Inverted Triangle Patterns\
+3.) Isosceles Triangle Patterns\
+**Problem**: 4 Problems on Mirror Image Patterns\
+**Problem**: 4 Problems on Invereted Triangle Patterns\
+**Problem**: 3 Problems on Isosceles Patterns
