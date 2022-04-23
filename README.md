@@ -49,3 +49,10 @@
 **Problem**: 4 Problems on Mirror Image Patterns\
 **Problem**: 4 Problems on Invereted Triangle Patterns\
 **Problem**: 3 Problems on Isosceles Patterns
+
+
+### Day-7: Learning
+1.) Increment and Decrement Operators\
+2.) Bitwise Operators\
+3.) Assignment Operators\
+4.) Operators and Precendence
