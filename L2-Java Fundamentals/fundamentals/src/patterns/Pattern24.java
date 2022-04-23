@@ -19,18 +19,21 @@ public class Pattern24 {
 		i = 1;
 		while( i <= n ) {
 			
+//			For Printing Spaces
 			spaces = 1;
 			while( spaces <= (n - i) ) {
 				System.out.print(" ");
 				spaces++;
 			}
 			
+//			For Printing Increasing Number
 			inc = 1;
 			while( inc <= i ) {
 				System.out.print(inc);
 				inc++;
 			}
 			
+//			For Printing Decreasing Number
 			dec = i - 1;
 			while( dec >= 1 ) {
 				System.out.print(dec);

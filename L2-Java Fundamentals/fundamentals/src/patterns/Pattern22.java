@@ -18,11 +18,14 @@ public class Pattern22 {
 		
 		i = 1;
 		while( i <= num ) {
+			
+//			For Printing Stars
 			j = 1;
 			while( j <= (num - i + 1) ) {
 				System.out.print("*");
 				j++;
 			}
+			
 			System.out.print("\n");
 			i++;
 		}

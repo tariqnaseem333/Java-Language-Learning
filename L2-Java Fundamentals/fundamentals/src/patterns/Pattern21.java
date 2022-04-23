@@ -18,11 +18,15 @@ public class Pattern21 {
 		
 		i = 1;
 		while( i <= num ) {
+			
+//			For Printing Spaces
 			j = 1;
 			while( j <= (num - i) ) {
 				System.out.print(" ");
 				j++;
 			}
+			
+//			For Printing Increasing Numbers
 			k = 1;
 			while( k <= i ) {
 				System.out.print(k);

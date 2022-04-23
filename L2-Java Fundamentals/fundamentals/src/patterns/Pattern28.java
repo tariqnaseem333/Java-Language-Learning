@@ -41,8 +41,7 @@ public class Pattern28 {
 				r++;
 			}
 			
-			
-			
+	
 			System.out.print("\n");
 			i++;
 		}

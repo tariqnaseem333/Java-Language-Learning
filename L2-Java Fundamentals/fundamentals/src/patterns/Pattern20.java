@@ -6,7 +6,7 @@ public class Pattern20 {
 
 	public static void main(String[] args) {
 		
-//		Print Square Pattern for n = 4
+//		Print Square Pattern for n = 3
 //		  *
 //		 **
 //		***
@@ -18,11 +18,15 @@ public class Pattern20 {
 		
 		i = 1;
 		while( i <= n ) {
+			
+//			For Printing Spaces
 			spaces = 1;
 			while( spaces <= (n - i) ) {
 				System.out.print(" ");
 				spaces++;
 			}
+			
+//			For Printing Stars
 			stars = 1;
 			while( stars <= i ) {
 				System.out.print("*");
