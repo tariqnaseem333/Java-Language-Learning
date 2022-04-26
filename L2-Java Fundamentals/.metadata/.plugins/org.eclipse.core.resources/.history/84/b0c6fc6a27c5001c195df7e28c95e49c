@@ -1,0 +1,37 @@
+package fundamentalsAdvanced;
+
+import java.util.Scanner;
+
+public class AllPrimeNumbers {
+
+	public static void main(String[] args) {
+		
+		int num;
+		
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+		
+		if( num == 1 ) {
+			System.out.println("0");
+		}
+		if( num == 2 ) {
+			System.out.println("2");
+		}
+		
+		for ( int i = 2; i <= num; i++ ) {
+			
+			if ( i == 2 ) {
+				System.out.println("2");
+				continue;
+			}
+			
+			for ( int j = 2; j < i; j++ ) {
+				if ( i % j == 0 ) {
+					break;
+				}
+				System.out.println(i);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+package fundamentalsAdvanced;
+
+import java.util.Scanner;
+
+public class NthFibonacciNumber {
+
+	public static void main(String[] args) {
+		
+		int num, a, b, c;
+		a = 0;
+		b = 1;
+		
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+		
+		for( int i = 1; i <= num; i++ ) {
+			if ( num == 0 ) {
+				System.out.println("0");
+				return;
+			}
+			if ( num == 1 ) {
+				System.out.println("0 1");
+				return;
+			}
+			c = a + b;
+			b = c;
+			a = b;
+			System.out.println(c);
+		}
+
+
+
+	}
+
+}

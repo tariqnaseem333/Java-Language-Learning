@@ -13,12 +13,18 @@ public class IncrementDecrement {
 //		}
 //		System.out.println("a: " + a + " b: " + b);
 		
-		
-	    int a=10;
-	    a+=++a-5/3+6*a;
-	    System.out.print(a);
-		
-		
+		int i = 1;
+		while(i < 3) {
+		    int j = 0;
+		    while(j < 5) {
+		        j++;
+		        if(j == 3) {
+		            continue;
+		        }
+		        System.out.print(j + " ");
+		    }
+		    i++;
+		}
 		
 //		int a = 60;
 //		int b = a++;

@@ -1,0 +1,21 @@
+package fundamentalsAdvanced;
+
+import java.util.Scanner;
+
+public class SumOrProduct {
+
+	public static void main(String[] args) {
+		
+		int number, choice;
+		
+		Scanner scanner = new Scanner(System.in);
+		number = scanner.nextInt();
+		choice = scanner.nextInt();
+		
+		
+		
+		
+
+	}
+
+}
