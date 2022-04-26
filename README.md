@@ -65,4 +65,4 @@
 **Problem**: All Prime Numbers\
 **Problem**: Sum or Product\
 **Problem**: Terms of AP
-**Problem**: Reverse of a Number\
+**Problem**: Reverse of a Number
