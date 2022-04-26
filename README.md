@@ -56,3 +56,13 @@
 2.) Bitwise Operators\
 3.) Assignment Operators\
 4.) Operators and Precendence
+
+### Day-8: Learning
+1.) For Loop\
+2.) Break Keyword and it's use\
+3.) Continue Keyword and it's use\
+**Problem**: Nth Fibonacci Number
+**Problem**: All Prime Numbers\
+**Problem**: Sum or Product\
+**Problem**: Terms of AP
+**Problem**: Reverse of a Number\
