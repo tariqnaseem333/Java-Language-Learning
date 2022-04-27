@@ -1,6 +1,7 @@
 package patterns;
 
 import java.util.Scanner;
+import java.lang.Math;
 
 public class Pattern32 {
 
@@ -50,10 +51,49 @@ public class Pattern32 {
 				}
 				
 				j++;
-			}	
+			}
+				
 			
 			System.out.print("\n");
 			i++;
 		} 
+		
+		
+		
+		
+		
+		
+		
+//		i = 1;
+//		p = 0;
+//		r = 0;
+//		a = 12345;
+//		while( i <= num ) {
+//			
+//			
+//			if ( p > a ) {
+//				p = 1;
+//			} else {
+//				p = i + r;
+//			}
+//			j = 1;
+//			while( j <= num ) {
+//				System.out.print(p);
+//				p = p + 2;
+//				j++;
+//			}
+//			a = p;
+//			
+//
+//			
+//			
+//			System.out.print("\n");
+//			r++;
+//			i++;
+		}
+
+
+
 	}
-}
+
+
