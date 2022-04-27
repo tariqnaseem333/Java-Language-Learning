@@ -66,3 +66,8 @@
 **Problem**: Sum or Product\
 **Problem**: Terms of AP\
 **Problem**: Reverse of a Number
+
+### Day-9: Learning
+**Problem**: Binary To Decimal\
+**Problem**: Decimal To Binary\
+**Problem**: Square Root (Integral) of a Number
