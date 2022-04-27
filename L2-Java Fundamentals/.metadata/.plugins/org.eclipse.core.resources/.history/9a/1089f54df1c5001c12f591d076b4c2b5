@@ -14,6 +14,7 @@ public class Pattern27 {
 //		Divide this pattern into 3 parts
 		
 		int num, i, j, k;
+		boolean isRun = false;
 		
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
@@ -31,13 +32,17 @@ public class Pattern27 {
 				
 				else {
 					
-					if( j == 1 || j == i ) {
-//						For Printing first and last number in each row
-						System.out.print(i-1);
-					} else {
-						System.out.print("0");
-					}
+//					For Printing first num in each row
+					System.out.print(i-1);
 					
+//					For Printing 0 in each row
+					k = 1;
+					while( k <= ( i - 2 ) ) {
+						System.out.print("0");
+//						System.out.println(i-1);
+//						isRun = true;
+						k++;
+					}
 				}
 				
 				j++;

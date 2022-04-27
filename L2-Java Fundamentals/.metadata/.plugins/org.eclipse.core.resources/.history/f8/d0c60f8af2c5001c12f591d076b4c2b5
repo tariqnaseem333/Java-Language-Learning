@@ -35,7 +35,7 @@ public class Pattern27 {
 //						For Printing first and last number in each row
 						System.out.print(i-1);
 					} else {
-						System.out.print("0");
+						System.out.println("0");
 					}
 					
 				}
