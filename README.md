@@ -72,5 +72,5 @@
 **Problem**: Decimal To Binary\
 **Problem**: Square Root (Integral) of a Number\
 **Problem**: Triangular Number Pattern\
-**Problem**: Odd Square Patter
+**Problem**: Odd Square Pattern
 
