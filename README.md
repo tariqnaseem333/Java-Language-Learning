@@ -72,5 +72,6 @@
 **Problem**: Decimal To Binary\
 **Problem**: Square Root (Integral) of a Number\
 **Problem**: Triangular Number Pattern\
-**Problem**: Odd Square Pattern
+**Problem**: Odd Square Pattern\
+**Problem**: Sum Pattern - Print triangle of user defined integers sum
 
