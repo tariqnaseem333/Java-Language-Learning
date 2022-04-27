@@ -29,7 +29,6 @@ public class Pattern33 {
 		if ( i <= (int)Math.ceil( ( 2*num + 1 ) / 2 ) ) {
 			
 			j = 1;
-			p = 1;
 			while( j <= ( 2*(i-1) + 1 ) ) {
 				
 //				For Printing first and last value as * 
@@ -38,7 +37,7 @@ public class Pattern33 {
 				} else {
 					System.out.print(p);
 //					For Printing increasing and decreasing number Pattern
-					if ( j <= (int)Math.ceil( ( 2*(i-1) + 1 ) / 2 ) ) {
+					if ( j <= (int)Math.floor( ( 2*(i-1) + 1 ) / 2 ) ) {
 						p++;
 					} else {
 						p--;
