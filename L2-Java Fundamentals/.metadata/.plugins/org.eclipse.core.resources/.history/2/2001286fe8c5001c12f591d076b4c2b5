@@ -1,0 +1,24 @@
+package fundamentalsAdvanced;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class CheckNumberSequence {
+
+	public static void main(String[] args) {
+		
+//		Taking Input from the user
+		int num;
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+		
+		int[] arr = {};
+		for ( int i = 0; i < num; i++ ) {
+			arr[i] = scanner.nextInt();
+		}
+		
+		System.out.println(Arrays.toString(arr));
+
+	}
+
+}

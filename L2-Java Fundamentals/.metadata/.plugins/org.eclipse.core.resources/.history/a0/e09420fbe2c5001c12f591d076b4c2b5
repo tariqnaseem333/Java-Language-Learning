@@ -1,0 +1,33 @@
+package fundamentalsAdvanced;
+
+import java.util.Scanner;
+
+public class SquareRoot {
+
+	public static void main(String[] args) {
+		
+//		Taking Input from User
+        int num;
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+		
+		int[] val = {};
+		int res1 = 0 , res2 = 0;
+		int val1 = 0 , val2 = 0;
+		for ( int i = 1; i <= num/2; i++ ) {
+			res1 = ( i - 1 ) * ( i - 1 );
+			res2 = i * i;
+			val1 = num - res1;
+			val2 = num - res2;
+			
+			if( val2 < 0 ) {
+				System.out.println(i);
+				break;
+			}
+			
+			
+		}
+
+	}
+
+}
