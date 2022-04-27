@@ -70,4 +70,4 @@
 ### Day-9: Learning
 **Problem**: Binary To Decimal\
 **Problem**: Decimal To Binary\
-**Problem**: Square Root (Integral) of a Number\
+**Problem**: Square Root (Integral) of a Number
