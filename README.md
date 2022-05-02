@@ -78,4 +78,5 @@
 ### Day-10: Learning
 **Problem**: Heart Shaped Pattern\
 **Problem**: Star Shaped Pattern\
-**Problem**: Straight One Line Pattern
+**Problem**: Straight One Line Pattern\
+**Problem**: Check Number Sequence- if it is strictly inc or dec or dec then inc
