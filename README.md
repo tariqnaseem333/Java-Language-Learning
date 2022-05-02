@@ -77,4 +77,5 @@
 
 ### Day-10: Learning
 **Problem**: Heart Shaped Pattern\
-**Problem**: Star Shaped Pattern
+**Problem**: Star Shaped Pattern\
+**Problem**: Straight One Line Pattern
