@@ -79,4 +79,8 @@
 **Problem**: Heart Shaped Pattern\
 **Problem**: Star Shaped Pattern\
 **Problem**: Straight One Line Pattern\
-**Problem**: Check Number Sequence- if it is strictly inc or dec or dec then inc
+**Problem**: Check Number Sequence- if it is strictly inc or dec or dec then inc\
+1.) Build Better Problem Solving Approach to following Problems:-\
+(a) **Problem**: Reverse of Number\
+(b) **Problem**: Square Root of a Number\
+(c) **Problem**: Binary to Decimal
