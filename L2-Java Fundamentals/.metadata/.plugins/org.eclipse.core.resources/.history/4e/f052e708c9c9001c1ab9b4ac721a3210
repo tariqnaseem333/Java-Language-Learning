@@ -1,0 +1,36 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class Pattern35 {
+
+	public static void main(String[] args) {
+
+//		For Printing Pattern for n = 4
+//		   1
+//		  121
+//		 12321
+//	    1234321
+//		 12321
+//		  121
+//		   1
+			
+
+
+		int num, n, N, i, j, k, l, r, p;
+	
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+		
+		N = (int)Math.ceil(num);
+		n = (int)Math.floor(num);
+		
+		System.out.println(n + "  " + N + "  " + num);
+;		
+		
+		
+	
+
+	}
+
+}
