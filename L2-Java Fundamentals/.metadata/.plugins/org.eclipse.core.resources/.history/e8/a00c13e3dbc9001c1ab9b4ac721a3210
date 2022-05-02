@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class Pattern36 {
+public class Pattern37 {
 
 	public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class Pattern36 {
 			
 
 
-		int number, num, n, N, i, j, k, l, p1, p2;
+		int number, num, n, N, i, j, k, l, r, p1, p2;
 	
 //		Taking Input from the user
 		Scanner scanner = new Scanner(System.in);
