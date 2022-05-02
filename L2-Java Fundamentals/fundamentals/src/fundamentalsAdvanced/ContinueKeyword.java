@@ -18,14 +18,13 @@ public class ContinueKeyword {
 		
 		
 ////		Continue Keyword in While Loop
-//		int n = 5;
 //		int i = 1;
 //		while ( i <= n ) {
 //			if ( i == 4 ) {
 //				i++;
 //				continue;
 //			}
-////			i++;
+//			i++;
 //			System.out.println(i);
 //		}
 
