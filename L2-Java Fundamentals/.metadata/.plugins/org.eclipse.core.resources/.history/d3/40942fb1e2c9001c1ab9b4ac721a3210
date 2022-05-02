@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class DecimalToBinary {
 
 	public static void main(String[] args) {
-
+		
 //		Taking Input from the user
 		int num;
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
-
-
-		long N = num;
-		long rem;
-		long tens = 1;
+		
+		
+		int N = num;
+		int rem;
+		int tens = 1;
 		long binaryNum = 0;
 		while( N > 0 ) {
 			rem = N % 2;
@@ -22,9 +22,11 @@ public class DecimalToBinary {
 			binaryNum = binaryNum + tens * rem;
 			tens = tens * 10;		
 		}
-
-		System.out.println(binaryNum);
-
+		
+		String s = String.valueOf(binaryNum);
+		System.out.println(s);
+		
+		
 
 	}
 

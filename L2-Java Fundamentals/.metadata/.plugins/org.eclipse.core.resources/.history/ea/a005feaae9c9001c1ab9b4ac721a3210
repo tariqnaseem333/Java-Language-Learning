@@ -11,19 +11,23 @@ public class DecimalToBinary {
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
 
+		if (num < 0) {
 
-		long N = num;
-		long rem;
-		long tens = 1;
-		long binaryNum = 0;
-		while( N > 0 ) {
-			rem = N % 2;
-			N = N / 2;
-			binaryNum = binaryNum + tens * rem;
-			tens = tens * 10;		
-		}
+		} else {
 
-		System.out.println(binaryNum);
+			int N = num;
+			int rem;
+			int tens = 1;
+			long binaryNum = 0;
+			while( N > 0 ) {
+				rem = N % 2;
+				N = N / 2;
+				binaryNum = binaryNum + tens * rem;
+				tens = tens * 10;		
+			}
+
+			System.out.println(binaryNum);
+		}	
 
 
 	}
