@@ -75,3 +75,5 @@
 **Problem**: Odd Square Pattern\
 **Problem**: Sum Pattern - Print triangle of user defined integers sum
 
+### Day-10: Learning
+**Problem**: Heart Shaped Pattern
