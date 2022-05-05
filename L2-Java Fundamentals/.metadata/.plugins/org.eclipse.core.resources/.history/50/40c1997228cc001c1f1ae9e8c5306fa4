@@ -1,0 +1,21 @@
+package functions;
+
+public class MoreOnFunctions {
+	
+	public static double sum( int a, int b, double c ) {
+		double ans = a + b + c;
+		return ans;  // or, return a + b
+	}
+
+	public static void main(String[] args) {
+		
+		int num1 = 4;
+		int num2 = 6;
+		
+		double result = sum( num1, num2, 10.5 );
+		
+		System.out.println(result);
+
+	}
+
+}

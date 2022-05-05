@@ -1,0 +1,21 @@
+package functions;
+
+public class DivideNumbers {
+	
+	public static int divideNum( int num1, int num2 ) {
+		int res = num1 / num2;
+		return res;
+	}
+
+	public static void main(String[] args) {
+		
+		int num1 = 4;
+		int num2 = 2;
+		
+		int result = divideNum( num1, num2 );
+		
+		System.out.println(result);
+
+	}
+
+}
