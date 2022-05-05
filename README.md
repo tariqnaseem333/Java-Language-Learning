@@ -84,3 +84,8 @@
 (a) **Problem**: Reverse of Number\
 (b) **Problem**: Square Root of a Number\
 (c) **Problem**: Binary to Decimal
+
+### Day-11: Learning
+1.) Functions with Return Type\
+2.) Functions with void Return Type
+
