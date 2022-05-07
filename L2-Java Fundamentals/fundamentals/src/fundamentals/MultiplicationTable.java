@@ -6,7 +6,7 @@ public class MultiplicationTable {
 
 	public static void main(String[] args) {
 
-		//	Print the Multiplication Table of a number entered by the user
+//	Print the Multiplication Table of a number entered by the user
 
 		int num, i, res;
 

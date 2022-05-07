@@ -6,7 +6,7 @@ public class CheckPrime {
 
 	public static void main(String[] args) {
 		
-//		Program to check to whether entered number is Prime or not 
+//		Program to check whether entered number is Prime or not 
 		
 		int num, div;
 //		boolean isPrime;

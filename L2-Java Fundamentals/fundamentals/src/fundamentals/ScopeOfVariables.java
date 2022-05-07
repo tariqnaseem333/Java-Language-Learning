@@ -35,7 +35,7 @@ public class ScopeOfVariables {
 //		Variable b is not accessible outside the scope of if 
 //		block
 //		System.out.println(b);
-		
+//		
 //		System.out.println(a);
 
 	}

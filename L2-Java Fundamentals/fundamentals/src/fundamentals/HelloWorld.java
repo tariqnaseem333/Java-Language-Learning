@@ -9,9 +9,9 @@ public class HelloWorld {
 //		println prints a new line at the end
 //		print prints on the same line
 		
-//		System.out.println("Hello World");
-//		System.out.println("Hello World");
-//		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.print("Hello World");
+		System.out.println("Hello World");
 		
 		
 	}

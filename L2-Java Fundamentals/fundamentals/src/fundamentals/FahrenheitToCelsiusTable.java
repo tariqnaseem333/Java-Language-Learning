@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class FahrenheitToCelsiusTable {
 
 	public static void main(String[] args) {
-		/* Your class should be named FahrenheitToCelsiusTable.
-	 	* Read input as specified in the question.
-	 	* Print output as specified in the question.
-		*/
 		
 //		Table of conversion from Fahrenheit temperature to Celsius Temperature
 //		Input: Fahrenheit Output: Celsius

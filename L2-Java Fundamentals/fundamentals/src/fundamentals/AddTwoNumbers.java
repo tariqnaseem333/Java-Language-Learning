@@ -14,7 +14,7 @@ public class AddTwoNumbers {
 		
 		System.out.println(ch);
 		
-//		Adding two numbers here by taking input from the user
+////		Adding two numbers here by taking input from the user
 //		int a,b;
 //		
 //		Scanner sc = new Scanner(System.in);

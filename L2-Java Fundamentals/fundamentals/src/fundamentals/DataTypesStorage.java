@@ -7,9 +7,9 @@ public class DataTypesStorage {
 		int i = 'a' + 3;
 		System.out.println(i);
 		
-//		int min = Integer.MIN_VALUE;
-//		int max = Integer.MAX_VALUE;
-//		System.out.println(min + "  " + max);
+		int min = Byte.MIN_VALUE;
+		int max = Byte.MAX_VALUE;
+		System.out.println(min + "  " + max);
 
 	}
 

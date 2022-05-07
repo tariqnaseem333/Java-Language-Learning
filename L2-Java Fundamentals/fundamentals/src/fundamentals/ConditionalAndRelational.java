@@ -11,17 +11,17 @@ public class ConditionalAndRelational {
 		a = s.nextInt();
 		b = s.nextInt();
 		
-		if(a != b) {
-			System.out.println("Not Equal");
-		} else {
-			System.out.println("Equal");
-		}
-		
-//		if(a>0 || b>0) {
-//			System.out.println("One is positive");
+//		if(a != b) {
+//			System.out.println("Not Equal");
 //		} else {
-//			System.out.println("None is positive");
+//			System.out.println("Equal");
 //		}
+		
+		if(a>0 || b>0) {
+			System.out.println("One is positive");
+		} else {
+			System.out.println("None is positive");
+		}
 
 	}
 

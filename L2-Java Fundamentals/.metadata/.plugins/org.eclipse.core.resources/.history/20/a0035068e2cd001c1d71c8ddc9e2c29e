@@ -1,0 +1,39 @@
+package fundamentals;
+
+import java.util.Scanner;
+
+public class CheckPrime {
+
+	public static void main(String[] args) {
+		
+//		Program to check to whether entered number is Prime or not 
+		
+		int num, div;
+//		boolean isPrime;
+//		isPrime = true;
+		
+		System.out.println("Enter the number: ");
+		Scanner s = new Scanner(System.in);
+		num = s.nextInt();
+		
+		div = 2;
+		while( div <= (num/2) ) {
+			if ( num % div == 0 ) {
+				System.out.println(num + " is Composite Number");
+//				isPrime = false;
+				return;
+			}
+			div++;
+		}
+		
+		System.out.println(num + " is Prime Number");
+		
+//		if ( isPrime ) {
+//			System.out.println(num + " is Prime Number");
+//		} else {
+//			System.out.println(num + " is Composite Number");
+//		}
+
+	}
+
+}

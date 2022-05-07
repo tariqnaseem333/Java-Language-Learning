@@ -5,17 +5,19 @@ import java.util.Scanner;
 public class EvenOddNumber {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Enter the number: ");
 		int number = scanner.nextInt();
+		
 //		int rem = number%2;
 //		boolean result = rem==0;
-		
+//		
 //		if ( result ) {
 //			System.out.println(number + " is even");
 //		} 
-//		if ( result ) {
+//		if ( !result ) {
 //			System.out.println(number + " is odd");
 //		}
 		
