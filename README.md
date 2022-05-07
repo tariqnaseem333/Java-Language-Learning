@@ -89,3 +89,7 @@
 1.) Functions with Return Type\
 2.) Functions with void Return Type
 
+### Day-12: Learning
+1.) Build Better Problem Solving Approach to following Problems:-\
+(a) **Problem**: Sum of Even and Odd Digits of a number N\
+
