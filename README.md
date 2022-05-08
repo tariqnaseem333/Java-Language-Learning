@@ -86,10 +86,7 @@
 (c) **Problem**: Binary to Decimal
 
 ### Day-11: Learning
-1.) Functions with Return Type\
-2.) Functions with void Return Type
-
-### Day-12: Learning
-1.) Build Better Problem Solving Approach to following Problems:-\
+1.) Build Better Problem Solving Approach to following Problem:-\
 (a) **Problem**: Sum of Even and Odd Digits of a number N\
+2.) **Problem**: Triangular Pattern of number and * with base on left hand side
 
