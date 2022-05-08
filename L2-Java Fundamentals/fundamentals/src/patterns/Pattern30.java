@@ -7,7 +7,7 @@ public class Pattern30 {
 
 	public static void main(String[] args) {
 
-		//		For Printing Pattern
+		//		For Printing Pattern for n = 5
 		//		    *
 		//		   ***
 		//		  *****

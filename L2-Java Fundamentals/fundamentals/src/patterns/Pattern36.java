@@ -23,7 +23,6 @@ public class Pattern36 {
 		number = scanner.nextInt();
 		
 		
-		
 		num = 2 * number - 2;
 		N = ( num + 2 ) / 2;
 		n = ( num - 2 ) / 2;
@@ -58,8 +57,6 @@ public class Pattern36 {
 //			For Printing Row Number
 			if ( i != N ) { 
 				System.out.print(i);
-			} else {
-				
 			}
 				
 			i++;
@@ -100,8 +97,6 @@ public class Pattern36 {
 			if ( i != N ) { 
 				System.out.print(p2);
 				p2--;
-			} else {
-				
 			}
 				
 			i++;

@@ -6,7 +6,7 @@ public class Pattern8 {
 
 	public static void main(String[] args) {
 		
-//		Pattern to Print
+//		Pattern to Print, n = 3
 //		1
 //		23
 //		345

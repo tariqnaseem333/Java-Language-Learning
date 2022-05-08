@@ -1,0 +1,55 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class Pattern27Alternative {
+
+	public static void main(String[] args) {
+
+		//		Pattern to Print, n = 4
+		//		1
+		//		11
+		//		202
+		//		3003
+		//		Divide this pattern into 3 parts
+
+		int num, i, j, k;
+
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextInt();
+
+		i = 1;
+		while( i <= num - 1 )  {
+
+			j = 1;
+			while( j <= i ) {
+
+				//			For Printing 1 in first row which is independent of num
+				if (i == 1) {
+					System.out.print("1");
+				} 
+
+				else {
+
+					System.out.print(i);
+
+					k = 1;
+					while ( k <= ( i - 1 ) ) {
+						System.out.println("0");
+						k++;
+					}
+
+
+					System.out.print(i);
+				}
+
+				j++;
+			}
+
+			System.out.print("\n");
+			i++;
+		}
+
+	}
+
+}

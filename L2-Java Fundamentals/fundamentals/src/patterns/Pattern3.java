@@ -6,7 +6,7 @@ public class Pattern3 {
 
 	public static void main(String[] args) {
 		
-//		Print Square Pattern
+//		Print Square Pattern, n = 3
 //		123
 //		123
 //		123

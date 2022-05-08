@@ -6,7 +6,7 @@ public class Pattern32 {
 
 	public static void main(String[] args) {
 
-		//		For Printing Pattern
+		//		For Printing Pattern for n = 4
 		//		  1=1
 		//		  1+2=3
 		//		  1+2+3=6

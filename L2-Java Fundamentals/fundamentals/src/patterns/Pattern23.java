@@ -6,7 +6,7 @@ public class Pattern23 {
 
 	public static void main(String[] args) {
 		
-//		Pattern to Print
+//		Pattern to Print, n = 3
 //		333
 //		22
 //		1
@@ -19,7 +19,7 @@ public class Pattern23 {
 		i = 1;
 		while( i <= num ) {
 			
-//			For Printing Row Number
+//			For Printing Row 
 			j = 1;
 			while( j <= (num - i +1) ) {
 				System.out.print(num - i +1);

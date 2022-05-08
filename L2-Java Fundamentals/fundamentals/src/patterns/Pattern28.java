@@ -6,7 +6,7 @@ public class Pattern28 {
 
 	public static void main(String[] args) {
 		
-//		For Printing Pattern
+//		For Printing Pattern for n = 4
 //		    *
 //		   ***
 //		  *****

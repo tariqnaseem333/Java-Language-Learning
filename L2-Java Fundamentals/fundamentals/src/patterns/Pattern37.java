@@ -8,8 +8,6 @@ public class Pattern37 {
 
 //		For Printing Pattern for n = 4
 //		1     1
-			
-
 
 		int num, i, j, N;
 	

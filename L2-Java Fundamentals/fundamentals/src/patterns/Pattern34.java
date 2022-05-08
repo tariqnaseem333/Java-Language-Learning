@@ -12,8 +12,6 @@ public class Pattern34 {
 //		5713
 //		7135
 			
-
-
 		int num;
 	
 		Scanner scanner = new Scanner(System.in);
@@ -24,9 +22,8 @@ public class Pattern34 {
 			
 //			For Printing Increasing Number
 			int j = 1;
-			int p1 = 2 * (i-1) + 1;
+			int p1 = 2 * i - 1;
 			while ( j <= num - i + 1 ) {
-				
 				System.out.print(p1);
 				p1 = p1 + 2;
 				j++;
@@ -36,7 +33,6 @@ public class Pattern34 {
 			int k = 1;
 			int p2 = 1;
 			while ( k <= ( i-1 ) ) {
-				
 				System.out.print(p2);
 				p2 = p2 + 2;
 				k++;

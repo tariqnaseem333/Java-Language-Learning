@@ -6,7 +6,7 @@ public class Pattern25 {
 
 	public static void main(String[] args) {
 		
-//		Pattern to Print
+//		Pattern to Print, n = 4
 //		1******1
 		
 		int num, k;
