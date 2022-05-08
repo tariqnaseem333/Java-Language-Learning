@@ -27,60 +27,41 @@ public class Pattern33 {
 	N = Math.ceil( num/2.0 );
 //	Setting Lower Range
 	n = Math.floor( num/2.0 );
-	
-	
-//	For Printing Upper Half of the Pattern
+		
 	i = 1;
 	while( i <= (int)N ) {
 		
 		System.out.print("*");
 		
-//		For Printing Incrementing Numbers
-		j = 1;
-		while ( j <= i - 1 ) {
-			System.out.print(j);
-			j++;
-		}
 		
-//		For Printing Decrementing Numbers
-		j = i - 2;
-		while ( j >= 1 ) {
-			System.out.print(j);
-			j--;
-		}
 		
-		if ( i != 1 ) {
-		System.out.print("*");
-		}
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		System.out.print("\n");
 		i++;
 	}
 	
-	
-//	For Printing Lower Half of the Pattern
 	i = 1;
 	while( i <= (int)n ) {
 		
 		System.out.print("*");
 		
-//		For Printing Incrementing Numbers
-		j = 1;
-		while( j <= (int)n - i ) {
-			System.out.print(j);
-			j++;
-		}
 		
-//		For Printing Decrementing Numbers
-		k = 1;
-		while( k <= (int)n - i - 1 ) {
-			System.out.print(k);
-			k++;
-		}
 		
-		if ( i != (int)n ) {
-		System.out.print("*");
-		}
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		System.out.print("\n");

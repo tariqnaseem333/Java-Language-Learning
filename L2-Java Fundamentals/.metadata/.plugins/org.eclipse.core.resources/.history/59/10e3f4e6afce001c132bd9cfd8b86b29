@@ -1,0 +1,57 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class Pattern33 {
+
+	public static void main(String[] args) {
+		
+//		Half Diamond Patter : Pattern to Print for n = 5
+//		*
+//		*1*
+//		*121*
+//		*12321*
+//		*121*
+//		*1*
+//		*
+		
+	int num, number,  i, j, k, p;
+	double N, n;
+		
+//	Taking Input from the user
+	Scanner scanner = new Scanner(System.in);
+	number = scanner.nextInt();
+	num = 2 * number - 3;
+	
+//	Setting Upper Range 
+	N = Math.ceil( num/2.0 );
+//	Setting Lower Range
+	n = Math.floor( num/2.0 );
+		
+	i = 1;
+	while( i <= (int)N ) {
+		
+		System.out.print("*");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		System.out.print("\n");
+		i++;
+	}
+		
+		
+		
+		
+
+	}
+
+}
