@@ -90,3 +90,9 @@
 (a) **Problem**: Sum of Even and Odd Digits of a number N\
 2.) **Problem**: Triangular Pattern of number and * with base on left hand side
 
+
+### Day-12: Learning
+**Problem**: NumberStarPattern\
+**Problem**: ZerosAndStarPattern\
+**Problem**: CheckArmStringNumber
+
