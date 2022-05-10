@@ -10,8 +10,8 @@ public class Precedence {
 		int c = 5 * ( 2 / 8 );
 		System.out.println(c);
 		
-//		boolean a = i + 5 > 5 && j > 6;
-//		System.out.println(a);
+		boolean a = i + 5 > 5 && j > 6;
+		System.out.println(a);
 		
 
 	}

@@ -31,7 +31,7 @@ public class ForLoops {
 //		for ( int i = 1, j = 100; i <= n && j <=200; i++, j += 20 ) {
 //			System.out.println(i + " " + j);
 //		}
-		
+//		
 		int i = 1;
 		for ( ; i <= n; i++ ) {
 			System.out.println(i);

@@ -15,8 +15,8 @@ public class IncrementDecrement {
 		
 		
 //		int a = 60;
-//		int b = a++;
-////		int b = ++a;
+////		int b = a++;
+//		int b = ++a;
 //		a = a + 1;
 //		
 //		System.out.println(a++);
