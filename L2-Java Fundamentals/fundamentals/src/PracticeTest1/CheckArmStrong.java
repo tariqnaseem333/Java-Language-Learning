@@ -43,10 +43,7 @@ public class CheckArmStrong {
         } else {
         	System.out.println("false");
         }
-
         
-        
-
 	}
 
 }

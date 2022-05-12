@@ -10,17 +10,9 @@ public class NcR {
 			fact = fact * i;
 		}
 		return fact;
-		
 	}
 	
-	public static void main(String[] args) {
-		
-		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
-		int r = s.nextInt();
-		
-//		Now, Calculating factorial by using function 
-		
+	public static int ncr( int n, int r ) {
 //		Calculating factorial for n
 		int factN = factorial(n);
 		
@@ -29,6 +21,31 @@ public class NcR {
 		
 //		Calculating factorial for n - r
 		int factNR = factorial(n - r);
+		
+//		Calculating nCr
+		int result = factN / ( factR * factNR );
+		
+		return result;
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		int r = s.nextInt();
+		
+		int result = ncr( n, r );
+		
+//		Now, Calculating factorial by using function 
+		
+////		Calculating factorial for n
+//		int factN = factorial(n);
+//		
+////		Calculating factorial for r
+//		int factR = factorial(r);
+//		
+////		Calculating factorial for n - r
+//		int factNR = factorial(n - r);
 		
 		
 		
@@ -53,9 +70,8 @@ public class NcR {
 //			factNR = factNR * i;
 //		}
 		
+//		int result = factN / ( factR * factNR );
 		
-		
-		int result = factN / ( factR * factNR );
 		System.out.println(result);
 	}
 

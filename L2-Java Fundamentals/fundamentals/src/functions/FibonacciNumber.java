@@ -9,13 +9,13 @@ public class FibonacciNumber {
         int a = 0;
         int b = 1;
         int c;
-        for ( int i = 0; i < n; i++ ) {
+        while ( a < n ) {
             c = a + b;
             a = b;
             b = c;
         }
 
-        if ( a == n || a == 1 || a == 2 ) {
+        if ( a == n ) {
         	isMember = true;
         }
         

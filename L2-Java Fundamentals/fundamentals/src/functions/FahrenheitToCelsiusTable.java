@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class FahrenheitToCelsiusTable {
 	
 	public static void printFahrenheitTable(int start, int end, int step) {
-        int c;
-        for ( int f = start; f <= end; f+=step ) {
-            c = (int)( ( 5 * (f-32) )/9 );
-            System.out.println( f + "\t" + c );
+        int celsius;
+        for ( int fahrenheit = start; fahrenheit <= end; fahrenheit+=step ) {
+            celsius = (int)( ( 5 * (fahrenheit-32) )/9 );
+            System.out.println( fahrenheit + "\t" + celsius );
         }
 	}
 
