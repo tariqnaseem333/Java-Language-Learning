@@ -96,3 +96,13 @@
 **Problem**: ZerosAndStarPattern\
 **Problem**: CheckArmStringNumber
 
+
+### Day-13: Learning
+1.) Functions\
+2.) Functions with void return type\
+3.) Function Call Stack\
+4.) Pass By Value\
+5.) Scope of Variables\
+6.) Function Overloading\
+**Problem**: Coverting checkPrime Program to function
+
