@@ -36,8 +36,8 @@ public class NcR {
 		
 		int result = ncr( n, r );
 		
-//		Now, Calculating factorial by using function 
-		
+////		Now, Calculating factorial by using function 
+//		
 ////		Calculating factorial for n
 //		int factN = factorial(n);
 //		

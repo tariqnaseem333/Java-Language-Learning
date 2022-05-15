@@ -20,15 +20,15 @@ public class FunctionCalling {
 
 	public static void main(String[] args) {
 		
-		int n = 10;
-		int i = 50;
-		n = increment(n);
-		System.out.println("Main " + n);
+//		int n = 10;
+//		int i = 50;
+//		n = increment(n);
+//		System.out.println("Main " + n);
 		
-//		int a = 10;
-//		int b = 5;
-//		int result = sum( a, b );
-//		System.out.println(result);
+		int a = 10;
+		int b = 5;
+		int result = sum( a, b );
+		System.out.println(result);
 
 	}
 
