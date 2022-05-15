@@ -106,3 +106,12 @@
 6.) Function Overloading\
 **Problem**: Coverting checkPrime Program to function
 
+### Day-14: Learning
+1.) Array Basics\
+2.) Array Declaration\
+3.) Array Operations\
+4.) Taking Input of Array and printing it\
+5.) Build Functions for Array Input and Array Print\
+**Problem**: Calculating sum of elements of an Array\
+**Problem**: Finding the largest element in an Array \
+**Problem**: Linear Search for an Element in an Array
