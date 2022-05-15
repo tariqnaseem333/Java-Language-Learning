@@ -1,0 +1,11 @@
+package arraysintroduction;
+
+public class ArrangeNumbersInArray {
+
+	public static void main(String[] args) {
+		boolean number = 3 % 2 == 0;
+		System.out.println(number);
+
+	}
+
+}
