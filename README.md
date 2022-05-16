@@ -127,3 +127,5 @@
 ### Day-16: Learning
 **Problem**: Find Unique Element in Array\
 **Problem**: Find Duplicate Element in Array\
+**Problem**: Intersection of Two Arrays\
+**Problem**: Pair Sum
