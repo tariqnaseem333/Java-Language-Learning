@@ -129,4 +129,5 @@
 **Problem**: Find Duplicate Element in Array\
 **Problem**: Intersection of Two Arrays\
 **Problem**: Pair Sum\
-**Problem**: Triplet Sum
+**Problem**: Triplet Sum\
+**Problem**: Sort Binary Array
