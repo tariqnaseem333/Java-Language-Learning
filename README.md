@@ -123,3 +123,6 @@
 **Problem**: Arrange numbers in an Array\
 **Problem**: Print all the pairs of an array\
 **Problem**: Swap Alternate Elements of an Array
+
+### Day-16: Learning
+**Problem**: Find Unique Element in Array\
