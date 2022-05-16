@@ -115,3 +115,11 @@
 **Problem**: Calculating sum of elements of an Array\
 **Problem**: Finding the largest element in an Array \
 **Problem**: Linear Search for an Element in an Array
+
+### Day-15: Learning
+1.) Non-Primitive Data Types\
+2.) How Primitive Data Types passed into functions\
+3.) How Non-Primitive Data Types (Arrays) passed into functions\
+**Problem**: Arrange numbers in an Array\
+**Problem**: Print all the pairs of an array\
+**Problem**: Swap Alternate Elements of an Array
