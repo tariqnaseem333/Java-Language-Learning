@@ -7,7 +7,7 @@ public class ArithmeticOperators {
 		int a = 3;
 		int b = 10;
 //		Operator Precedence
-		int c = b / (2 * a) ;
+		int c = b / 2 * a ;
 		System.out.println(c);
 		
 		

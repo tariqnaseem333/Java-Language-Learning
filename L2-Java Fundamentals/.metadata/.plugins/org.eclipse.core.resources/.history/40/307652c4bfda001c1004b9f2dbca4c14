@@ -29,7 +29,7 @@ public class ScopeOfVariables {
 			System.out.println(b);
 		} else {
 			int b = 20;
-			System.out.println(b);
+			System.out.println(c);
 		}
 		
 //		Variable b is not accessible outside the scope of if 

@@ -6,7 +6,7 @@ public class PowerOfNumber {
 
 	public static void main(String[] args) {
 		
-//		Calculating the Power of a Number
+//		Calculating the Power of a Number: n^x
 		
 		int x, n, res;
         

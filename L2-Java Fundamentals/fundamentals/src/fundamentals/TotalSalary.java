@@ -38,8 +38,6 @@ public class TotalSalary {
         
         System.out.println(Math.round(totalSalary));
 
-		
-
 	}
 
 }

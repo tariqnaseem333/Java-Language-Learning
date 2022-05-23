@@ -12,18 +12,18 @@ public class WhileLoop {
 		n = s.nextInt();
 		
 //		Print n natural numbers
-		int i = 1;
-		while(i <= n) {
-			System.out.println(i);
-			i++;
-		}
-		
-//		Print Hello world n times
-//		int i = 0;
-//		while(i < n) {
-//			System.out.println("Hello World");
+//		int i = 1;
+//		while(i <= n) {
+//			System.out.println(i);
 //			i++;
 //		}
+		
+//		Print Hello world n times
+		int i = 0;
+		while(i < n) {
+			System.out.println("Hello World");
+			i++;
+		}
 
 	}
 
