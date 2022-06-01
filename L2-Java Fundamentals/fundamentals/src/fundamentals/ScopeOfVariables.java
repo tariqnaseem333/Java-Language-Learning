@@ -7,13 +7,13 @@ public class ScopeOfVariables {
 //		Scope of Variables in Loop
 //		int i = 1;
 //		while(i <= 5) {
-//			int j =10;
+//			int j = 10;
 //			System.out.println(j);
-//			i++;
 //			j++;
+//			i++;
 //		}
 //		System.out.println(i);
-		
+//		
 //		j scope is only in while loop
 //		System.out.println(j);
 		
@@ -21,16 +21,16 @@ public class ScopeOfVariables {
 		
 		
 //		Scope of Variables in Block
-		int a = 10;
-		a = 100;
-		
-		if ( a >= 100 ) {
-			int b = 10;
-			System.out.println(b);
-		} else {
-			int b = 20;
-			System.out.println(b);
-		}
+//		int a = 10;
+//		a = 100;
+//		
+//		if ( a >= 100 ) {
+//			int b = 10;
+//			System.out.println(b);
+//		} else {
+//			int b = 20;
+//			System.out.println(b);
+//		}
 		
 //		Variable b is not accessible outside the scope of if 
 //		block

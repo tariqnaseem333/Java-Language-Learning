@@ -14,15 +14,15 @@ public class AddTwoNumbers {
 		
 		System.out.println(ch);
 		
-////		Adding two numbers here by taking input from the user
-//		int a,b;
-//		
-//		Scanner sc = new Scanner(System.in);
-//		a = sc.nextInt();
-//		b = sc.nextInt();
-//	
-//		int c = a + b;
-//		System.out.println(c);
+//		Adding two numbers here by taking input from the user
+		int a,b;
+		
+		Scanner sc = new Scanner(System.in);
+		a = sc.nextInt();
+		b = sc.nextInt();
+	
+		int c = a + b;
+		System.out.println(c);
 		
 	}
 

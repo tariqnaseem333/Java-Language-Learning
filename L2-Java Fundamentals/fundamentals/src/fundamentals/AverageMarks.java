@@ -7,6 +7,11 @@ public class AverageMarks {
 
 
 	public static void main(String[] args) {
+		
+//		I/P : Tariq
+//			  94 96 98
+//		O/P : T
+//			  96
         
         char name;
         int m1, m2, m3, average;

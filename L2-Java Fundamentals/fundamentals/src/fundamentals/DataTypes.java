@@ -4,13 +4,13 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 		
-		int a;
-		a = 10;
-		
-		int var1 = 33;
-		int Var;
-		
-		boolean isValid = false;
+//		int a;
+//		a = 10;
+//		
+//		int var1 = 33;
+//		int Var;
+//		
+//		boolean isValid = false;
 		
 //		The different dataTypes are given below:-
 //		int a = 10;
@@ -22,6 +22,16 @@ public class DataTypes {
 //		
 //		char ch = 'a';
 //		boolean bl = false;
+		
+		int k = 1;
+		switch (k) {
+		default:
+			System.out.println("Have");
+		case 'a':
+			System.out.println("A");
+		case 'b':
+			System.out.println("Good Day");
+		}
 
 	}
 

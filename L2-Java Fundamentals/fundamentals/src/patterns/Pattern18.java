@@ -20,7 +20,7 @@ public class Pattern18 {
         while (i <= num) {
             j = 1;
             char ch = 'A';
-            while ( j <= (num - i +1) ) {
+            while ( j <= (num - i + 1) ) {
                 System.out.print((char)(ch));
                 ch++;
                 j++;

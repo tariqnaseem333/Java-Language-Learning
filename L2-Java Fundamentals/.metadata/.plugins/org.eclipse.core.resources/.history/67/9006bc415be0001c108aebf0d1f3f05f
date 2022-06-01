@@ -1,0 +1,20 @@
+package fundamentals;
+
+public class ArithmeticOperators {
+	
+	public static void main(String[] args) {
+		
+//		int a = 3;
+//		int b = 10;
+////		Operator Precedence
+//		int c = b / (2 * a) ;
+//		System.out.println(c);
+		short number = 32767; 
+		short numberTwo = (short)(number + 1); 
+		System.out.println(numberTwo); 
+		
+		
+		
+	}
+
+}

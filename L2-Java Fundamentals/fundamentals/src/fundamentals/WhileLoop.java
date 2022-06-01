@@ -14,7 +14,7 @@ public class WhileLoop {
 //		Print n natural numbers
 //		int i = 1;
 //		while(i <= n) {
-//			System.out.println(i);
+//			System.out.print(i + " ");
 //			i++;
 //		}
 		

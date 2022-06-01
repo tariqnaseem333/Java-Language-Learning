@@ -11,9 +11,9 @@ public class EvenOddNumber {
 		System.out.println("Enter the number: ");
 		int number = scanner.nextInt();
 		
-		int rem = number % 2;
-		boolean result = rem==0;
-		
+//		int rem = number % 2;
+//		boolean result = rem==0;
+//		
 //		if ( result ) {
 //			System.out.println(number + " is even");
 //		} 
