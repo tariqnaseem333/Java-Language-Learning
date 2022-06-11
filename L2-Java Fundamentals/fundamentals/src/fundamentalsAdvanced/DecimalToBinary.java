@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class DecimalToBinary {
 
 	public static void main(String[] args) {
+		
+//	    Input: Decimal number (integer N), 
+//		convert it into binary and print.
 
 //		Taking Input from the user
 		int num;

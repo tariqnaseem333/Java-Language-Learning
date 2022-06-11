@@ -6,6 +6,9 @@ public class TermsOfAP {
 
 	public static void main(String[] args) {
 		
+//		 Print first x terms of the series 3N + 2,
+//		 which are not multiples of 4
+		
 		int num;
 		
 		Scanner scanner = new Scanner(System.in);

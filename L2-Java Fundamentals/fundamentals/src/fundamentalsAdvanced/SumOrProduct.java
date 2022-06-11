@@ -6,6 +6,11 @@ public class SumOrProduct {
 
 	public static void main(String[] args) {
 		
+//		Input: Number and Choice
+//		if Choice = 1, then print the sum
+//		if Choice = 2, then print the product
+//		Any other number, then print -1
+		
 		int number, choice;
 		
 		Scanner scanner = new Scanner(System.in);

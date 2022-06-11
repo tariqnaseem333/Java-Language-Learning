@@ -23,6 +23,9 @@ public class FibonacciNumber {
 	}
 
 	public static void main(String[] args) {
+		
+//		Check if the given number is a member of fibonacci series or not
+		
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		System.out.println(checkMember(n));

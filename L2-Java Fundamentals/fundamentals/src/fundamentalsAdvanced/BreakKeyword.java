@@ -17,10 +17,10 @@ public class BreakKeyword {
 			}
 			System.out.println();
 		}
-//		System.out.println("Outside Loop");		
+		System.out.println("Outside For Loop");		
 		
 		
-////	Break Keyword in While Loops
+//	Break Keyword in While Loops
 //		int i = 1;
 //		while ( i <= n ) {
 //			if ( i == 4 ) {
@@ -41,7 +41,7 @@ public class BreakKeyword {
 //		}
 		
 		
-		System.out.println("Outside While");
+		System.out.println("Outside While Loop");
 	}
 
 }

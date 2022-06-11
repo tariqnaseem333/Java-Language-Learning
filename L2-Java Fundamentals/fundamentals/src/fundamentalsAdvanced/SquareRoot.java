@@ -6,6 +6,9 @@ public class SquareRoot {
 
 	public static void main(String[] args) {
 		
+//		Input: number N, find its square root. 
+//		Print only the integral part of square root of N.
+		
 //		Taking Input from User
         int num;
 		Scanner scanner = new Scanner(System.in);

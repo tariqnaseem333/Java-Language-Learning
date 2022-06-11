@@ -33,9 +33,8 @@ public class ArrangeNumbersInArrayAlterntive {
     	if( n % 2 == 0 ) {
     		length = n / 2;
     	} else {
-    		length = (int)Math.ceil( n / 2 ) + 1;
+    		length = (n / 2) + 1;
     	}
-        
         int val = 1;
         for( int i = 0; i < length; i++ ) {
             arr[i] = val;

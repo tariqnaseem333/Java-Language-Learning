@@ -6,6 +6,8 @@ public class AllPrimeNumbers {
 
 	public static void main(String[] args) {
 		
+//		Print all the Prime Numbers till number num
+		
 		int num;
 		boolean isPrime;
 		
@@ -26,7 +28,7 @@ public class AllPrimeNumbers {
 			isPrime = false;
 			
 			if ( i == 2 ) {
-				System.out.println("2");
+				System.out.print("2" + " ");
 				continue;
 			}
 			
@@ -38,7 +40,7 @@ public class AllPrimeNumbers {
 				isPrime = true;
 			}
 			if ( isPrime ) {
-				System.out.println(i);
+				System.out.print(i + " ");
 			}
 		}
 		

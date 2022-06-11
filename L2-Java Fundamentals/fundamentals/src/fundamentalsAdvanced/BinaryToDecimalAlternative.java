@@ -6,6 +6,9 @@ public class BinaryToDecimalAlternative {
 
 	public static void main(String[] args) {
 		
+//		Binary number as an integer N, 
+//		Convert it into decimal and print.
+		
 //		Taking Input from User
         int num, N, rem, decNum, factor;
 		Scanner scanner = new Scanner(System.in);

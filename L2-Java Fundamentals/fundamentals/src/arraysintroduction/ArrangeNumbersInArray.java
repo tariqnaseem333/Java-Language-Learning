@@ -33,7 +33,7 @@ public class ArrangeNumbersInArray {
     	if( n % 2 == 0 ) {
     		length = n / 2;
     	} else {
-    		length = (int)Math.ceil( n / 2 ) + 1;
+    		length = ( n / 2 ) + 1;
     	}
         int p = 1;
         for( int i = 0; i < length ; i++ ) {

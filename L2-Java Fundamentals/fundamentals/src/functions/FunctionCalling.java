@@ -13,7 +13,7 @@ public class FunctionCalling {
 //		Cannot access i because it's outside the scope
 //		System.out.println(i);
 		
-//		System.out.println("Increment " + n);
+		System.out.println("Increment " + n);
 		return n;
 	}
 	

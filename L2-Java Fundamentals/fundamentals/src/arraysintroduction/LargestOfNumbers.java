@@ -36,11 +36,11 @@ public class LargestOfNumbers {
 	public static void main(String[] args) {
 		
 		int[] arr = takeInput();
-		System.out.println(arr);
+//		System.out.println(arr);
 		
-//		int lar = largest(arr);
+		int lar = largest(arr);
 		
-//		System.out.println(lar);		
+		System.out.println(lar);		
 
 	}
 

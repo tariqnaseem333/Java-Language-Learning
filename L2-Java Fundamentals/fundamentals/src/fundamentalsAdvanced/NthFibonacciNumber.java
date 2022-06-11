@@ -6,6 +6,8 @@ public class NthFibonacciNumber {
 
 	public static void main(String[] args) {
 		
+//		Print the Nth fibonacci Number of the Series
+		
 		int num, a, b, c;
 		a = 0;
 		b = 1;
@@ -22,11 +24,18 @@ public class NthFibonacciNumber {
 			return;
 		}
 		
-		for( int i = 1; i <= num; i++ ) {
+		while( a < num ) {
 			c = a + b;
 			a = b;
 			b = c;
 		}
+		
+//		for( int i = 1; i <= num; i++ ) {
+//			c = a + b;
+//			a = b;
+//			b = c;
+//		}
+		
 		System.out.println(a);
 	}
 

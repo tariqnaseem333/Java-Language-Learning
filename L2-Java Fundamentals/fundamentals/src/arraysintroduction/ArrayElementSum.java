@@ -41,7 +41,7 @@ public class ArrayElementSum {
         while(t > 0) {
             int[] arr = takeInput();
             System.out.println( sum(arr) );
-            t = t - 1;
+            t--;
         }
 		
 

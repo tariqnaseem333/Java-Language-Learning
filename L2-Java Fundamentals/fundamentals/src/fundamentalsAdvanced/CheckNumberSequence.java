@@ -6,6 +6,10 @@ public class CheckNumberSequence {
 
 	public static void main(String[] args) {
 		
+//		Input: seq of number
+//		Determine if seq is strictly inc or strictly dec or
+//		dec then inc, return true if it is.
+		
 		int num, prev, curr;
 		boolean isDec = true;
 		

@@ -26,11 +26,6 @@ public class BitwiseOperators {
 		System.out.println(g);
 		System.out.println(h);
 		
-		int z = -1;
-		System.out.println(z >> 2);
-		System.out.println(z >>> 2);
-		System.out.println(Integer.MAX_VALUE);
-
 	}
 
 }

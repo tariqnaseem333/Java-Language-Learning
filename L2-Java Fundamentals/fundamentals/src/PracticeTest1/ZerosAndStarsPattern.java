@@ -7,10 +7,11 @@ public class ZerosAndStarsPattern {
 	public static void main(String[] args) {
 		
 //		Print the Pattern for n = 5
-//		*000*000*
-//		0*00*00*0
-//		00*0*0*00
-//		000***000
+//		*0000*0000*
+//		0*000*000*0
+//		00*00*00*00
+//		000*0*0*000
+//		0000***0000
 		
 		int num, i, j, k, p, l, m;
 		

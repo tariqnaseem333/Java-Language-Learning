@@ -6,6 +6,9 @@ public class BinaryToDecimal {
 
 	public static void main(String[] args) {
 		
+//		Binary number as an integer N, 
+//		Convert it into decimal and print.
+		
 //		Taking Input from User
         int num;
 		Scanner scanner = new Scanner(System.in);

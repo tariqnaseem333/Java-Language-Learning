@@ -6,6 +6,10 @@ public class SquareRootAlternative {
 
 	public static void main(String[] args) {
 		
+//		Input: number N, find the nearest square root of this number N.
+//		Ex:- number = 10 nearest square root is 9, So Output = 3
+//		Print only the integral part of square root of N.
+		
 //		Taking Input from User
         int num, i;
 		Scanner scanner = new Scanner(System.in);

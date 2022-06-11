@@ -6,6 +6,9 @@ public class ReverseOfNumberAlternative {
 
 	public static void main(String[] args) {
 		
+//		Find Reverse of a given number N. 
+//		Print the corresponding reverse number.
+		
 //		Taking Input from User
         int num, rem, N;
 		Scanner scanner = new Scanner(System.in);
