@@ -14,18 +14,18 @@ public class EvenOddNumber {
 		int rem = number % 2;
 		boolean result = rem==0;
 		
-//		if ( result ) {
-//			System.out.println(number + " is even");
-//		} 
-//		if ( !result ) {
-//			System.out.println(number + " is odd");
-//		}
-		
-		if ( number%2 == 0 ) {
+		if ( result ) {
 			System.out.println(number + " is even");
-		} else {
-			System.out.println(number + " is Odd");
+		} 
+		if ( !result ) {
+			System.out.println(number + " is odd");
 		}
+		
+//		if ( number%2 == 0 ) {
+//			System.out.println(number + " is even");
+//		} else {
+//			System.out.println(number + " is Odd");
+//		}
 
 	}
 
