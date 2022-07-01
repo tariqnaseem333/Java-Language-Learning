@@ -23,18 +23,19 @@ public class NthFibonacciNumber {
 			System.out.println("1");
 			return;
 		}
-		
-		while( a < num ) {
-			c = a + b;
-			a = b;
-			b = c;
-		}
-		
-//		for( int i = 1; i <= num; i++ ) {
+	
+//		It will give incorrect result after num = 6
+//		while( a < num ) {
 //			c = a + b;
 //			a = b;
 //			b = c;
 //		}
+		
+		for( int i = 1; i <= num; i++ ) {
+			c = a + b;
+			a = b;
+			b = c;
+		}
 		
 		System.out.println(a);
 	}

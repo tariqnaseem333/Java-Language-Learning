@@ -22,6 +22,7 @@ public class Pattern18 {
             char ch = 'A';
             while ( j <= (num - i + 1) ) {
                 System.out.print((char)(ch));
+//            	System.out.print((char)('A' + j - 1));
                 ch++;
                 j++;
             }

@@ -69,7 +69,7 @@ public class NcR {
 //		for( int i = 1; i <= ( n - r ); i++ ) {
 //			factNR = factNR * i;
 //		}
-		
+//		
 //		int result = factN / ( factR * factNR );
 		
 		System.out.println(result);

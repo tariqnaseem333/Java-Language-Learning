@@ -43,11 +43,9 @@ public class Pattern35 {
 			}
 			
 //			For Printing Incrementing Numbers
-			p1 = 1;
 			j = 1;
 			while( j <= i ) {
-				System.out.print(p1);
-				p1++;
+				System.out.print(j);
 				j++;
 			}
 			

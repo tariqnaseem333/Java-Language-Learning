@@ -43,8 +43,8 @@ public class Pattern32 {
 					System.out.print(sum);
 				}
 				
-				else {
 //				For Printing numbers in pattern
+				else {
 				System.out.print(p);
 				p++;
 				}

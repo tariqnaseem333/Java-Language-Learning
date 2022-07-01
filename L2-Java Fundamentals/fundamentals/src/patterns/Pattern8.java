@@ -20,7 +20,8 @@ public class Pattern8 {
             j = 1;
             p = i;
             while(j <= i) {
-                System.out.print(p);
+//            	System.out.print(i+j-1);
+              System.out.print(p);
                 p++;
                 j++;
             }

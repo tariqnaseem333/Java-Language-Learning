@@ -21,7 +21,8 @@ public class Pattern14 {
         	char p = (char)('A' + i - 1);
             j = 1;
             while (j <= num) {
-                System.out.print(p);
+//                System.out.print((char)('A' + i + j - 2));
+            	System.out.print(p);
                 p = (char)(p + 1);
                 j++;
             }

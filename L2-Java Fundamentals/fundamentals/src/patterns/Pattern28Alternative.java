@@ -29,7 +29,7 @@ public class Pattern28Alternative {
 			
 //			For Printing *
 			k = 1;
-			while( k <= 2 * ( i - 1 ) + 1 ) {
+			while( k <= 2 * i - 1 ) {
 				System.out.print("*");
 				k++;
 			}

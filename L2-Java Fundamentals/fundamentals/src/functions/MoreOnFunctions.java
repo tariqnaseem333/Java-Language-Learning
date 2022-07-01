@@ -28,7 +28,7 @@ public class MoreOnFunctions {
 //		printEvenNumbers();
 		
 //		function returned result but we didn't collect it here
-//		sum( num1, num2, 10.5 );
+		sum( num1, num2, 10.5 );
 		
 		double result = sum( num1, num2, 10.5 );
 		System.out.println(result);
