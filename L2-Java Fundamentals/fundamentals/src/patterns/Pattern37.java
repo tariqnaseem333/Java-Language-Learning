@@ -17,17 +17,27 @@ public class Pattern37 {
 		
 		N = 2 * num - 1;
 		
-//		For Printing first number 1
-		System.out.print("1");
-			
 		j = 1;
-		while ( j <= N - 2 ) {
-			System.out.print(" ");
+		while ( j <= N ) {
+			if( j == 1 || j == N ) {
+				System.out.print("1");
+			} else {
+				System.out.print(" ");
+			}
 			j++;
 		}	
-			
-//		For Printing last number 1
-		System.out.print("1");	
+		
+////		For Printing first number 1
+//		System.out.print("1");
+//			
+//		j = 1;
+//		while ( j <= N - 2 ) {
+//			System.out.print(" ");
+//			j++;
+//		}	
+//			
+////		For Printing last number 1
+//		System.out.print("1");	
 	
 
 	}

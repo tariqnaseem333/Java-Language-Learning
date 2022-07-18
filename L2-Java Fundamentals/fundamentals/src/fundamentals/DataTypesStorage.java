@@ -9,7 +9,7 @@ public class DataTypesStorage {
 		
 		int min = Byte.MIN_VALUE;
 		int max = Byte.MAX_VALUE;
-		System.out.println(min + "  " + max);
+		System.out.println(min + " to " + max);
 
 	}
 

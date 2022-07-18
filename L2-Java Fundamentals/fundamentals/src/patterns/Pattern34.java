@@ -32,7 +32,7 @@ public class Pattern34 {
 //			For Printing Decreasing Number
 			int k = 1;
 			int p2 = 1;
-			while ( k <= ( i-1 ) ) {
+			while ( k <= ( i - 1 ) ) {
 				System.out.print(p2);
 				p2 = p2 + 2;
 				k++;

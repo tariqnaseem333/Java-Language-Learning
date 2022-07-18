@@ -4,7 +4,7 @@ public class ScopeOfVariables {
 
 	public static void main(String[] args) {
 		
-//		Scope of Variables in Loop
+////		Scope of Variables in Loop
 //		int i = 1;
 //		while(i <= 5) {
 //			int j = 10;

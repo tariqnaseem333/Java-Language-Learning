@@ -12,6 +12,7 @@ public class DivideNumbers {
 	
 	public static void printDivisionResult( int num, int deno ) {
 		if ( deno == 0 ) {
+			
 			System.out.println( "Division by 0 is not allowed" );
 			return;  // exit the function without any value
 		}

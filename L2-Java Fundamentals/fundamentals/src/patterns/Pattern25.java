@@ -14,19 +14,30 @@ public class Pattern25 {
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
 		
-
-//		For Printing Starting 1
-		System.out.print("1");
-
-//		For Printing *
 		k = 1;
-		while( k <= ( 2 * ( num - 1 ) ) ) {
-			System.out.print("*");
+		while( k <= 2 * num ) {
+			
+			if( k == 1 || k == 2*num ) {
+				System.out.print("1");
+			} else {
+				System.out.print("*");
+			}
 			k++;
 		}
-			
-//		For Printing Ending 1
-		System.out.print("1");
+		
+
+////		For Printing Starting 1
+//		System.out.print("1");
+//
+////		For Printing *
+//		k = 1;
+//		while( k <= ( 2 * ( num - 1 ) ) ) {
+//			System.out.print("*");
+//			k++;
+//		}
+//			
+////		For Printing Ending 1
+//		System.out.print("1");
 
 
 	}

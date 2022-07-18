@@ -21,8 +21,8 @@ public class Pattern23 {
 			
 //			For Printing Row 
 			j = 1;
-			while( j <= (num - i +1) ) {
-				System.out.print(num - i +1);
+			while( j <= (num - i + 1) ) {
+				System.out.print(num - i + 1);
 				j++;
 			}
 			

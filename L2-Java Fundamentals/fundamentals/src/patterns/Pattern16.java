@@ -22,7 +22,7 @@ public class Pattern16 {
             j = 1;
             while (j <= i) {
                 System.out.print(p);
-//                System.out.print((char)('A' + num - i + j -1));
+//                System.out.print((char)('A' + num - i + j - 1));
                 p = (char)(p + 1);
                 j++;
             }

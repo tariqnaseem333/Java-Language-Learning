@@ -7,12 +7,12 @@ public class Pattern30 {
 
 	public static void main(String[] args) {
 
-		//		For Printing Pattern for n = 5
-		//		    *
-		//		   ***
-		//		  *****
-		//		   ***
-		//		    *
+//		For Printing Pattern for n = 5
+//		    *
+//		   ***
+//		  *****
+//		   ***
+//		    *
 
 		int num, i, j, k, q, r, a, b, c;
 		double N, n;
@@ -70,8 +70,8 @@ public class Pattern30 {
 			}
 			
 //			For Printing decreasing Stars (left)
-			b = 0;
-			while( b <= ( (int)n - j ) ) {
+			b = 1;
+			while( b <= ( (int)n - j + 1 ) ) {
 				System.out.print("*");
 				b++;
 			}

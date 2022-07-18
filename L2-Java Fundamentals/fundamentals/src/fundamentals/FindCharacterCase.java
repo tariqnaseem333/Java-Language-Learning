@@ -8,7 +8,7 @@ public class FindCharacterCase {
 //    	return:- 
 //    	1, if the character is an uppercase alphabet (A - Z)
 //    	0, if the character is a lowercase alphabet (a - z)
-//    	-1, if the character is not an alphabet
+//      -1, if the character is not an alphabet
         
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the character: ");

@@ -20,6 +20,7 @@ public class Pattern11 {
         while (i <= num) {
             j = i;
             while (j >= 1) {
+//            	System.out.print(i-j+1);
                 System.out.print(j);
                 j--;
             }

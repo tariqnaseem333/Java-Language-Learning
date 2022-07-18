@@ -10,7 +10,6 @@ public class MultiplicationTable {
 
 		int num, i, res;
 
-
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
 
