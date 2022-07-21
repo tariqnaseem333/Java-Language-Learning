@@ -6,11 +6,11 @@ public class Pattern32 {
 
 	public static void main(String[] args) {
 
-		//		For Printing Pattern for n = 4
-		//		  1=1
-		//		  1+2=3
-		//		  1+2+3=6
-		//		  1+2+3+4=10
+//		For Printing Pattern for n = 4
+//		  1=1
+//		  1+2=3
+//		  1+2+3=6
+//		  1+2+3+4=10
 		
 		int num;
 		

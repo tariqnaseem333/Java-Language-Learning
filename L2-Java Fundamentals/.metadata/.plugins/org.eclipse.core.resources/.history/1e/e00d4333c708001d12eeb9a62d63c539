@@ -93,8 +93,11 @@ public class Pattern36 {
 				l++;
 			}
 			
-			System.out.print(p2);
-			p2--;
+//			For Printing Row Number
+//			if ( i != N ) { 
+				System.out.print(p2);
+				p2--;
+//			}
 				
 			i++;
 			System.out.print("\n");

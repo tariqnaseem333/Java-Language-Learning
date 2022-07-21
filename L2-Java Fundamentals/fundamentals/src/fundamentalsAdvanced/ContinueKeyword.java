@@ -5,7 +5,7 @@ public class ContinueKeyword {
 	public static void main(String[] args) {
 		
 		int n = 5;
-//		Continue Keyword in For Loop
+////		Continue Keyword in For Loop
 //		for ( int i = 1; i <= n; i++ ) {
 //			if ( i == 4 ) {
 //			continue;

@@ -25,7 +25,7 @@ public class AllPrimeNumbers {
 		
 		for ( int i = 2; i <= num; i++ ) {
 			
-			isPrime = false;
+			isPrime = true;
 			
 			if ( i == 2 ) {
 				System.out.print("2" + " ");
@@ -37,7 +37,6 @@ public class AllPrimeNumbers {
 					isPrime = false;
 					break;
 				}
-				isPrime = true;
 			}
 			if ( isPrime ) {
 				System.out.print(i + " ");
