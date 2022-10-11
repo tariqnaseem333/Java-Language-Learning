@@ -4,7 +4,7 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 		
-//		int a;
+		int a;
 //		a = 10;
 //		
 //		int var1 = 33;
@@ -22,7 +22,8 @@ public class DataTypes {
 //		
 //		char ch = 'a';
 //		boolean bl = false;
-	
+		
+		System.out.println(a);
 
 	}
 
