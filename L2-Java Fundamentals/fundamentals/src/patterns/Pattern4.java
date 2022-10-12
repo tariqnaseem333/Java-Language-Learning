@@ -18,11 +18,13 @@ public class Pattern4 {
 		
 		i = 1;
 		while( i <= n ) {
+			
 			j = 1;
 			while( j <= n ) {
 				System.out.print(n - j + 1);
 				j++;
 			}
+			
 			System.out.print("\n");
 			i++;
 		}

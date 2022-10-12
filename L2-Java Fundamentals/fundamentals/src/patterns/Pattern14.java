@@ -19,6 +19,7 @@ public class Pattern14 {
         i = 1;
         while (i <= num) {
         	char p = (char)('A' + i - 1);
+        	
             j = 1;
             while (j <= num) {
 //                System.out.print((char)('A' + i + j - 2));
@@ -26,6 +27,7 @@ public class Pattern14 {
                 p = (char)(p + 1);
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

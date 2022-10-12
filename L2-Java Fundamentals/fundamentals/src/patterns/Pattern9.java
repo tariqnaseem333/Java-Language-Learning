@@ -18,11 +18,13 @@ public class Pattern9 {
         
         i = 1;
         while (i <= num) {
+        	
             j = 1;
             while (j <= i) {
                 System.out.print("*");
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

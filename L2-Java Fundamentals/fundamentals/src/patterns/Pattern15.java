@@ -19,12 +19,14 @@ public class Pattern15 {
         i = 1;
         while (i <= num) {
         	char p = (char)('A' + i - 1);
+        	
             j = 1;
             while (j <= i) {
                 System.out.print(p);
                 p = (char)(p + 1);
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

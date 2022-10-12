@@ -18,12 +18,14 @@ public class Pattern7 {
         
         i = 1;
         while(i <= num) {
+        	
             j = 1;
             while(j <= i) {
                 System.out.print(p);
                 p++;
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

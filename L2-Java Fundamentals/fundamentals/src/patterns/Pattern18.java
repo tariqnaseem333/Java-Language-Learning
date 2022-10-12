@@ -18,14 +18,16 @@ public class Pattern18 {
         
         i = 1;
         while (i <= num) {
+        	char ch = 'A';
+        	
             j = 1;
-            char ch = 'A';
             while ( j <= (num - i + 1) ) {
                 System.out.print((char)(ch));
 //            	System.out.print((char)('A' + j - 1));
                 ch++;
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

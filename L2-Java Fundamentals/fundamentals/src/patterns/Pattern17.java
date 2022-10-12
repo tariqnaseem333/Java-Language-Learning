@@ -18,12 +18,14 @@ public class Pattern17 {
         
         i = 1;
         while (i <= num) {
+        	
             j = 1;
             while (j <= i) {
             	char ch = (char)('A' + j - 1);
                 System.out.print(ch);
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

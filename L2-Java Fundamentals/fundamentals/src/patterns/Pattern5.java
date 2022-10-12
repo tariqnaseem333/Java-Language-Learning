@@ -17,11 +17,13 @@ public class Pattern5 {
         
         i = 1;
         while(i <= num) {
+        	
             j = 1;
             while(j <= num) {
                 System.out.print(num);
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }

@@ -17,14 +17,16 @@ public class Pattern8 {
         
         i = 1;
         while(i <= num) {
+        	
+        	p = i;
             j = 1;
-            p = i;
             while(j <= i) {
 //            	System.out.print(i+j-1);
               System.out.print(p);
                 p++;
                 j++;
             }
+            
             System.out.print("\n");
             i++;
         }
