@@ -78,7 +78,7 @@ public class Pattern33 {
 			k--;
 		}
 		
-		if ( i != 1 ) {
+		if ( i != (int)n ) {
 		System.out.print("*");
 		}
 		

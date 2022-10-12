@@ -39,7 +39,13 @@ public class Pattern36 {
 				k--;
 			}
 			
-//			For Printing Row Numbers
+////			For Printing Row Numbers
+//			j = i;
+//			while( j == i ) {
+//				System.out.print(i);
+//				j++;
+//			}
+			
 			System.out.print(i);
 			
 //			For Printing Spaces
@@ -74,8 +80,12 @@ public class Pattern36 {
 			}
 			
 //			For Printing Row Numbers
-			System.out.print(p1);
-			p1--;
+			j = i;
+			while( j == i ) {
+				System.out.print(p1);
+				p1--;
+				j++;
+			}
 			
 //			For Printing Spaces
 			l = 1;

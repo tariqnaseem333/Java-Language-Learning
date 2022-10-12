@@ -7,11 +7,11 @@ public class Pattern31 {
 
 	public static void main(String[] args) {
 
-		//		For Printing Pattern for n = 4
-		//		  ****
-		//		   ****
-		//		    ****
-		//		     ****
+//		For Printing Pattern for n = 4
+//		  ****
+//		   ****
+//		    ****
+//		     ****
 		
 		int num, i, j, k;
 		

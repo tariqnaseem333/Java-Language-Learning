@@ -32,6 +32,7 @@ public class Pattern20 {
 				System.out.print("*");
 				stars++;
 			}
+			
 			System.out.print("\n");
 			i++;
 		}
