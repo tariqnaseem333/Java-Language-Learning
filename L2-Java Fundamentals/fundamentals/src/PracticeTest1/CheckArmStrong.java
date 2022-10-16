@@ -21,7 +21,7 @@ public class CheckArmStrong {
 //		12345 to "12345"
 		String str = String.valueOf(num);
 			
-//		Calculating length of the String Array
+//		Calculating length of the String
 		l = str.length();
         
         rem = 0;

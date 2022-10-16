@@ -25,7 +25,7 @@ public class DivideNumbers {
 	public static void main(String[] args) {
 		
 		int num = 8;
-		int deno = 0;
+		int deno = 2;
 //		int result = divideNumbers( num, deno );
 		printDivisionResult( num , deno );
 		
