@@ -24,7 +24,7 @@ public class NthFibonacciNumber {
 			return;
 		}
 	
-//		It will give incorrect result after num = 6, like for num = 7
+//		It will give incorrect result after num = 6
 //		while( a < num ) {
 //			c = a + b;
 //			a = b;

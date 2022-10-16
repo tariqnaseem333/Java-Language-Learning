@@ -9,7 +9,7 @@ public class SumOrProduct {
 //		Input: Number and Choice
 //		if Choice = 1, then print the sum
 //		if Choice = 2, then print the product
-//		Any other number for Choice, then print -1
+//		Any other number, then print -1
 		
 		int number, choice;
 		

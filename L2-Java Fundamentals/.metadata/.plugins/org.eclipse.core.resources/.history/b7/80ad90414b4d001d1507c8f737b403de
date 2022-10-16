@@ -14,10 +14,11 @@ public class DecimalToBinary {
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
 
+
+		long N = num;
 		long rem;
 		long tens = 1;
 		long binaryNum = 0;
-		long N = num;
 		while( N > 0 ) {
 			rem = N % 2;
 			binaryNum = binaryNum + tens * rem;

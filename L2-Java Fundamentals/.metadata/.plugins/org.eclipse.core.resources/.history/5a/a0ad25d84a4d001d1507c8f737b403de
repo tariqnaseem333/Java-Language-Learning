@@ -15,9 +15,9 @@ public class BinaryToDecimalAlternative {
 		num = scanner.nextInt();
 		
 		factor = 1;
+		N = num;
 		decNum = 0;
 		rem = 0;
-		N = num;
 		while ( N > 0 ) {
 			rem = N % 10;
 			decNum = decNum + rem * factor;
