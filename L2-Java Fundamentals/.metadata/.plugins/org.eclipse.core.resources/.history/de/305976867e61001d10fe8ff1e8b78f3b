@@ -30,14 +30,20 @@ public class ReverseOfNumber {
 		int arr[] = new int[numbersArr.length];
 //		2.) Populating integer array with String Array values
 		for (int i = 0; i < numbersArr.length; i++) {
-            arr[i] = Integer.parseInt(numbersArr[arr.length - i - 1]);
+            arr[i] = Integer.parseInt(numbersArr[i]);
         }
 		
+//		Reversing the whole array and storing it into the new array
+		int newArr[] = new int[arr.length];
+		for ( int i = 0; i < arr.length; i++ ) {
+			newArr[i] = arr[arr.length - i - 1];
+		}
+		
 //		Creating new array of Strings of length of integer Array
-		String[] arrFinal = new String[arr.length];
+		String[] arrFinal = new String[newArr.length];
 //		Populating String array with integer Array values by converting into the string
-		for (int i = 0; i < arr.length; i++) {
-            arrFinal[i] = String.valueOf(arr[i]);
+		for (int i = 0; i < newArr.length; i++) {
+            arrFinal[i] = String.valueOf(newArr[i]);
         }
 		
 //		Creating StringBuffer Object and Appending it with array values

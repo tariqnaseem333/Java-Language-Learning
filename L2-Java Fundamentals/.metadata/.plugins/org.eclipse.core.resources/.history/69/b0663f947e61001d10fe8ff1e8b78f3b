@@ -33,6 +33,12 @@ public class ReverseOfNumber {
             arr[i] = Integer.parseInt(numbersArr[arr.length - i - 1]);
         }
 		
+////		Reversing the whole array and storing it into the new array
+//		int newArr[] = new int[arr.length];
+//		for ( int i = 0; i < arr.length; i++ ) {
+//			newArr[i] = arr[arr.length - i - 1];
+//		}
+		
 //		Creating new array of Strings of length of integer Array
 		String[] arrFinal = new String[arr.length];
 //		Populating String array with integer Array values by converting into the string

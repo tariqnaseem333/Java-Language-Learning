@@ -43,7 +43,6 @@ public class CheckNumberSequence {
 				}
 				isDec = true;
 			}
-			
 		}
 		
 		System.out.println("true");
