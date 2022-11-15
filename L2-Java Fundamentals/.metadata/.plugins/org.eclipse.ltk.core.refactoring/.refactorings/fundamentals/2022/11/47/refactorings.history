@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;PracticeTest1&apos; to &apos;practiceTest1&apos;&#x0D;&#x0A;- Original project: &apos;fundamentals&apos;&#x0D;&#x0A;- Original element: &apos;fundamentals/src/PracticeTest1&apos;&#x0D;&#x0A;- Renamed element: &apos;fundamentals/src/practiceTest1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;PracticeTest1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;PracticeTest1" name="practiceTest1" qualified="false" references="true" stamp="1668488914831" textual="false" version="1.0"/>
+</session>
