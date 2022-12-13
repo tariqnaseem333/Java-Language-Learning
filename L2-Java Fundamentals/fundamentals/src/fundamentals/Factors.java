@@ -16,7 +16,7 @@ public class Factors {
         num = scanner.nextInt();
         
         int i = 2;
-        while(i < num) {
+        while(i <= (num/2) ) {
             if (num % i == 0 ) {
                 System.out.print(i + "  ");
             }

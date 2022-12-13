@@ -36,6 +36,7 @@ public class TotalSalary {
         
         totalSalary = basicSalary + 0.2*basicSalary + 0.5*basicSalary + allow - 0.11*basicSalary;
         
+        
         System.out.println(Math.round(totalSalary));
 
 	}
