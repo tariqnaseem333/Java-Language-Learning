@@ -106,4 +106,4 @@
 6.) Function Overloading\
 **Problem**: Coverting checkPrime Program to function
 
-### After this Repository, I continue my Learning in Java-Data-Structures-and-Algorithms Repository whose link is :- https://github.com/tariqnaseem333/Java-Data-Structures-and-Algorithms-
+### After learning Java Basics as mentioned in this Repository, I continue my Learning of Data Structures and Algorithms Using Java whose Repository link is :- [Java Data Structures and Algorithms](https://github.com/tariqnaseem333/Java-Data-Structures-and-Algorithms-)
