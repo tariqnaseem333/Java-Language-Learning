@@ -18,8 +18,8 @@ public class Factors {
         
         int i = 2;
         while(i <= (num/2) ) {
+        	isPrime = false;
             if (num % i == 0 ) {
-            	isPrime = false;
                 System.out.print(i + "  ");
             }
             i++;

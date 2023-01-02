@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fundamentals.FindCharacterCase&apos; to &apos;CharacterCase&apos;&#x0D;&#x0A;- Original project: &apos;fundamentals&apos;&#x0D;&#x0A;- Original element: &apos;fundamentals.FindCharacterCase&apos;&#x0D;&#x0A;- Renamed element: &apos;fundamentals.CharacterCase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FindCharacterCase&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fundamentals{FindCharacterCase.java[FindCharacterCase" matchStrategy="1" name="CharacterCase" qualified="false" references="true" similarDeclarations="false" stamp="1672648761438" textual="false" version="1.0"/>
+</session>
