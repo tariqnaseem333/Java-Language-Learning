@@ -20,6 +20,10 @@ public class SquareRootAlternative {
 			System.out.println("0");
 		}
 		
+		if ( num == 1 ) {
+			System.out.println("1");
+		}
+		
 		i = 0;
 		while ( i <= num ) {
 			if ( i*i <= num ) {

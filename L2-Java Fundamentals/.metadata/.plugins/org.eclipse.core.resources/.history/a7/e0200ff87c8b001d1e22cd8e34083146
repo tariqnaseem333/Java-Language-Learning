@@ -1,0 +1,44 @@
+package fundamentalsAdvanced;
+
+import java.util.Scanner;
+
+public class BinaryToDecimal {
+
+	public static void main(String[] args) {
+		
+//		Binary number as an integer N, 
+//		Convert it into decimal and print.
+		
+//		Taking Input from User
+        byte num;
+		Scanner scanner = new Scanner(System.in);
+		num = scanner.nextByte();
+		
+		
+//		Converting entered number from int to string
+//		1100 to "1100"
+		String numbers = String.valueOf(num);
+		
+		
+//		Converting String number to String Array
+//		"1100" to [ "1", "1", "0", "0" ]
+		String[] numbersArr = numbers.split("");
+		
+		
+//		Converting String Array to integer Array in 2 steps below:-
+//		1.) Creating new array of integers of length of String Array
+		byte arr[] = new byte[numbersArr.length];
+//		2.) Populating integer array with String Array values
+		for (byte i = 0; i < numbersArr.length; i++) {
+            arr[i] = Byte.parseByte(numbersArr[i]);
+        }
+		
+		byte decNum = 0;
+		for ( byte i = 0; i < arr.length; i++ ) {
+			decNum = (byte) (decNum + arr[arr.length - i -1] * (byte)Math.pow(2, i));
+		}
+		System.out.println(decNum);
+
+	}
+
+}
