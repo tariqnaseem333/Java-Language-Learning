@@ -24,7 +24,7 @@ public class CheckPrime {
 
 	public static void main(String[] args) {
 		
-//		Program to check whether entered number is Prime or not
+//		Program to check whether entered positive number is Prime or not
 		
 		int num;
 		Scanner s = new Scanner(System.in);
