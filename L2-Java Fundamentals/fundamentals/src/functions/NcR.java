@@ -36,20 +36,6 @@ public class NcR {
 		
 		int result = ncr( n, r );
 		
-////		Now, Calculating factorial by using function 
-//		
-////		Calculating factorial for n
-//		int factN = factorial(n);
-//		
-////		Calculating factorial for r
-//		int factR = factorial(r);
-//		
-////		Calculating factorial for n - r
-//		int factNR = factorial(n - r);
-		
-		
-		
-		
 ////		Now, Calculating factorial without using function 
 //		
 ////		Calculating factorial for n
@@ -69,6 +55,18 @@ public class NcR {
 //		for( int i = 1; i <= ( n - r ); i++ ) {
 //			factNR = factNR * i;
 //		}
+		
+////		Now, Calculating factorial by using function 
+//		
+////		Calculating factorial for n
+//		int factN = factorial(n);
+//		
+////		Calculating factorial for r
+//		int factR = factorial(r);
+//		
+////		Calculating factorial for n - r
+//		int factNR = factorial(n - r);
+		
 		
 //		int result = factN / ( factR * factNR );
 		
