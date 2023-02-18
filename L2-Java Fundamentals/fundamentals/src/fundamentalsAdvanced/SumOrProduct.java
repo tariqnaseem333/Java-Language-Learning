@@ -30,7 +30,7 @@ public class SumOrProduct {
 	
 		} else if ( choice == 2 ) {
 			
-//			if choice is 2, then print sum from 1 to N
+//			if choice is 2, then print product from 1 to N
 			int prod = 1;
 			int j = 1;
 			while( j <= number ) {
