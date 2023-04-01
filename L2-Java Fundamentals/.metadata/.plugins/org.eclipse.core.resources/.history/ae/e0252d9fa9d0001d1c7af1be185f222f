@@ -8,11 +8,11 @@ public class AddTwoNumbers {
 		
 		Scanner s = new Scanner(System.in);
 		
-////		For accessing character from terminal
-//		String str = s.next();
-//		char ch = str.charAt(0);
-//		
-//		System.out.println(ch);
+//		For accessing character from terminal
+		String str = s.next();
+		char ch = str.charAt(0);
+		
+		System.out.println(ch);
 		
 //		Adding two numbers here by taking input from the user
 		int a,b;
