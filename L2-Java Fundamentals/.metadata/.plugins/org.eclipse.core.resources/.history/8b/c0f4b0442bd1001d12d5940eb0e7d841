@@ -6,43 +6,43 @@ public class Pattern33 {
 
 	public static void main(String[] args) {
 
-//		Half Diamond Pattern : Pattern to Print for n = 5
-//		*
-//		*1*
-//		*121*
-//		*12321*
-//		*121*
-//		*1*
-//		*
+		//		Half Diamond Pattern : Pattern to Print for n = 5
+		//		*
+		//		*1*
+		//		*121*
+		//		*12321*
+		//		*121*
+		//		*1*
+		//		*
 
 		int num, number,  i, j, k, p;
 		int N, n;
 
-//	Taking Input from the user
+		//	Taking Input from the user
 		Scanner scanner = new Scanner(System.in);
 		number = scanner.nextInt();
 		num = 2 * number - 3;
 
-//	Setting Upper Range 
+		//	Setting Upper Range 
 		N = (int)Math.ceil( num/2.0 );
-//	Setting Lower Range
+		//	Setting Lower Range
 		n = (int)Math.floor( num/2.0 );
 
 
-//	For Printing Upper Half of the Pattern
+		//	For Printing Upper Half of the Pattern
 		i = 1;
 		while( i <= N ) {
 
 			System.out.print("*");
 
-	//		For Printing Incrementing Numbers
+			//		For Printing Incrementing Numbers
 			j = 1;
 			while ( j <= i - 1 ) {
 				System.out.print(j);
 				j++;
 			}
 
-	//		For Printing Decrementing Numbers
+			//		For Printing Decrementing Numbers
 			j = i - 2;
 			while ( j >= 1 ) {
 				System.out.print(j);
@@ -58,20 +58,20 @@ public class Pattern33 {
 		}
 
 
-	//	For Printing Lower Half of the Pattern
+		//	For Printing Lower Half of the Pattern
 		i = n;
 		while( i >= 1 ) {
 
 			System.out.print("*");
 
-	//		For Printing Incrementing Numbers
+			//		For Printing Incrementing Numbers
 			j = 1;
 			while( j <= ( i - 1 ) ) {
 				System.out.print(j);
 				j++;
 			}
 
-	//		For Printing Decrementing Numbers
+			//		For Printing Decrementing Numbers
 			k = i - 2;
 			while( k >= 1 ) {
 				System.out.print(k);
