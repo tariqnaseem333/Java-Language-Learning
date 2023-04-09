@@ -13,7 +13,7 @@ public class Pattern27 {
 //		3003
 //		Divide this pattern into 3 parts
 		
-		int num, i, j;
+		int num, i, j, k;
 		
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();
