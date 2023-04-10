@@ -27,16 +27,16 @@ public class ForLoops {
 		
 		
 		
-////		Using 2 Loop Variable
-//		for ( int i = 1, j = 100; i <= n && j <=200; i++, j += 20 ) {
-//			System.out.println(i + " " + j);
-//		}
-//		
-		int i = 1;
-		for ( ; i <= n; i++ ) {
-			System.out.println(i);
+//		Using 2 Loop Variable
+		for ( int i = 1, j = 100; i <= n && j <=200; i++, j += 20 ) {
+			System.out.println(i + " " + j);
 		}
-		System.out.println(i);
+//		
+//		int i = 1;
+//		for ( ; i <= n; i++ ) {
+//			System.out.println(i);
+//		}
+//		System.out.println(i);
 
 
 	}

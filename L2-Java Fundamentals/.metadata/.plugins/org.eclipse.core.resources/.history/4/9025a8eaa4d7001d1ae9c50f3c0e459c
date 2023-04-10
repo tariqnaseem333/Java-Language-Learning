@@ -6,7 +6,7 @@ public class BreakKeyword {
 		
 		int n = 5;
 		
-////		Break Keyword in Nested For Loops
+//		Break Keyword in Nested For Loops
 //		for ( int i = 1; i <= n; i++ ) {
 //			for( int j = 1; j <= n; j++ ) {
 //				if ( i + 1 == j ) {
@@ -20,7 +20,7 @@ public class BreakKeyword {
 //		System.out.println("Outside For Loop");		
 		
 		
-////		Break Keyword in While Loops
+//		Break Keyword in While Loops
 //		int i = 1;
 //		while ( i <= n ) {
 //			if ( i == 4 ) {

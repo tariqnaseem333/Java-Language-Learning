@@ -49,8 +49,8 @@ public class ReverseOfNumber {
 	    String str = sb.toString();
 	    
 //	    Trimming 0 from the start of the string
-	    String strPattern = "[0]+";
-	    str = str.replaceAll(strPattern, "");
+//	    String strPattern = "^0+(?!$)";
+//	    str = str.replaceAll(strPattern, "");
 		
 		System.out.println(str);
 		
